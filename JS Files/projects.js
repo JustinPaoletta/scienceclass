@@ -10,8 +10,7 @@ var myProjects = [
         name: "Egg Drop",
         info: "We Built Containers To Protect Eggs From Cracking And Then Dropped Them Off The Roof!",
         photo: "../Pictures/clipart-egg-drop-8.jpg",
-
-        link: "href='https://youtu.be/1T6EReKOyT4'",
+        link: "https://www.youtube.com/watch?v=1T6EReKOyT4",
 
     },
 
