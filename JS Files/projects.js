@@ -19,7 +19,7 @@ var myProjects = [
         name: "Shake Table",
         info: "We Constructed A Bunch Of Towers And Shook Their Platform To See How They Survived!",
         photo: "../Pictures/maxresdefault-1.jpg",
-        link: "href='https://www.youtube.com/embed/zq7DgkZk-kQ'",
+        link: "https://www.youtube.com/watch?v=zq7DgkZk-kQ",
 
     },
 
