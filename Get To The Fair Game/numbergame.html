@@ -1,0 +1,329 @@
+<!DOCTYPE html> 
+<html> 
+
+    <head> 
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sigmar+One" rel="stylesheet">
+    <meta charset="utf-8"> 
+    <title>Number Guessing Game</title> 
+    <link href="game.css" rel="stylesheet">
+    </head> 
+
+ 
+    <body> 
+
+        <p id="ltitle">LIVES</p><br>
+        <div id="lives">         
+        
+            <ul id= 'hearts'>
+            <li><img id="l1" src="retro-11-512.png"></li>
+        
+            <li><img id="l2" src="retro-11-512.png"></li>
+        
+            <li><img id="l3" src="retro-11-512.png"></li>
+
+            <li><img id="l4" src="retro-11-512.png"></li>
+
+            <li><img id="l4" src="retro-11-512.png"></li>
+            </ul>
+
+        </div>
+
+
+
+        <div id="items">
+
+            <p>ITEMS</p>
+
+            <img id ="shovelitem" src="minecraft-shovel-png-1.png">
+            <img id = "bookitem" src="a908f41b3e47003.png">
+            <img id = "pokeballitem" src="8-bit-pc-png-2.png">
+            <img id = "sworditem" src="Diamodd_Sword.png">
+
+        </div>
+
+
+
+            
+        <div id="styletop">
+            <h1 style="text-align: center; margin-top: 2vh;">Science Fair Trail! </h1>
+            <h3 style="text-align: center; margin-top: 0vh;"><button id="rules">How To Play</button></h3> 
+        </div>
+
+
+
+
+        <div id="pics">
+            <img class="itemsonpath" id="event" src="lawn-1417835_960_720.png">
+            <img class="itemsonpath" id="shovel" src="./minecraft-shovel-png-1.png">
+            <img id="pic2" src="./unnamed-1.png">
+            <img class="itemsonpath" id="sign" src="./unnamed.png">
+            <img class="itemsonpath" id="nonevent1" src="lawn-1417835_960_720.png">
+            <img class="itemsonpath" id="snake" src="./Spider.png">
+            <img class="itemsonpath" id="event1" src="./Gondor_Rock.png">
+            <img class="itemsonpath" id="fight" src="./FIGHT!.png">
+            <img class="itemsonpath" id="scorpion" src="./Dragon.png">
+            <img class="itemsonpath" id="fire1" src="./ball-of-fire-png-8.png">
+            <img class="itemsonpath" id="fire2" src="./ballfire2.png">
+            <img class="itemsonpath" id="fire3" src="./ballfire.png">
+            <img class="itemsonpath" id="nonevent2" src="lawn-1417835_960_720.png">
+            <img class="itemsonpath" id="triggerpotion" src="lawn-1417835_960_720.png">
+            <img class="itemsonpath" id="event2" src="./minecraft_idea_8___potion_of_haste_by_thedevingreat-d6vddc3.png">
+            <img class="itemsonpath" id="nonevent3" src="lawn-1417835_960_720.png">
+            <img id="pic3" src="./wallpaper-clipart-castle-817240-2263009.png">
+            <img class="itemsonpath" id="pokeball" src="Screen Shot 2018-10-23 at 11.15.57 AM.png">
+            <img class="itemsonpath" id="spellbook" src="Screen Shot 2018-10-23 at 11.16.45 AM.png">
+            <img class="itemsonpath" id="sword" src="Screen Shot 2018-10-23 at 11.16.22 AM.png">
+        </div>
+
+
+       
+
+        <div id="groundpic">
+        <!-- MineCraft Ground -->
+        </div>
+
+
+
+
+        <div id ="ground" style="background-color: rgb(82, 70, 31); height: 31.5vh;">
+            
+            <div class="form" id="pickanumber"> 
+                <label id="enterguess">Pick A Number </label> <br><br>
+                <input type = "text" id = "guessField" class = "guessField"> <br><br>
+                <button type = "submit" class = "guessSubmit" id = "submitguess">Submit</button>
+            </div> 
+            
+        </div>
+
+
+
+
+        <div id="modalrules">
+            <p>OBJECTIVE: GET TO THE FAIR BEFORE IT ENDS! <br><br>How To Play:<br> <br>Guess a Number Between 1 - 9 <br><br> If You Guess Correctly You Move Closer To The Fair!<br><br>
+            Guess Wrong And You Must Answer A Science Question.  If You Are Correct You Move Forward.  
+            If You Are Wrong You Move Backwards And Lose A Life.  Lose Your 5 Lives Or Run Too Far Backwards And You Will Not Reach 
+            The Science Fair Before It Ends! <br><br> Your Journey Awaits!
+            </p> 
+            <button id="start">Click Here To Play</button>
+            <br><br><p id="foot">* This Game For Mac And PC's. Works In Safari And Chrome. Please Use Full Screen Mode Only!</p><br> 
+        </div>
+
+        <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2><span style="color:rgb(113, 17, 17);">WRONG GUESS!</span> <br><br> Prove You Know Science To Move Forward:</h2>
+                    </div>
+                    <div class="modal-body"><br><br><br>
+                        <h1 id="sciencequestion"></h1><br><br>
+                        <form id="aligning">  
+                        <input class="aligns" type="radio" name="choices" value="0"><p class="alig" id="one"></p>
+                        <input class="aligns" type="radio" name="choices" value="1"><p class="alig" id="two"></p>
+                        <input class="aligns" type="radio" name="choices" value="2"><p class="alig" id="three"></p> 
+                        <input class="aligns" type="radio" name="choices" value="3"><p class="alig" id="four"></p>
+                        <br>
+                        </form>
+                        <br>
+                    </div>
+                    <div class="modal-footer">
+                        <h3><button id="answerbtn">Check Your Answer</button> </h3>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <!-- The Buttons To Move -->
+    
+            <div id="myModalTrue" class="movebutton">
+                <button id="moveup">Correct! Take A Step Towards The Lab!<br>Click Here To Continue</button>
+            </div>
+    
+            <div id="myModalFalse" class="movebutton">
+                <button id="moveback">Incorrect! You Got Confused And Wandered Backwards!<br>Click Here To Continue</button>
+            </div>
+
+        
+
+        <div id="modalsign">
+                <p>The Old Sign Says:</p><br>
+                    <img id="osign" src="RGvuLLB.png">
+                    <br><br>
+                <button id="thanks">Thanks For The Wisdom!</button>
+        </div>
+
+
+
+        <div id="modalshovel">
+                <p>With This Shovel You Can Accomplish Great Things!</p><br>
+                    <img src="minecraft-shovel-png-1.png">
+                    <br><br>
+                <button id="dignow">Dig A Hole Now</button>
+                <button id="diglater">Dig A Hole Later</button>
+        </div>
+
+        
+
+
+        <div id="modalrock">
+            <p>YOU'RE WALKING PAST SOME ROCKS, THERE COULD BE SOMETHING GOOD UNDERNEATH!</p><br>
+            <div style="display:inline-flex">
+                    <img id="merock" src="./unnamed-1.png">
+                    <img id="rockk" src="Gondor_Rock.png">
+            </div>
+            <br>
+            <button id="flip">Flip Them Over!</button>
+            <button id="closerock">Leave Them And Keep Going</button>
+        </div>
+
+
+
+
+        <div id="modaldragonfight">
+                <p>Beat The Dragon To Continue!</p><br>
+
+                <img id="vs" src="5440487-1122329314-52705.png">
+                <br><br>
+                <img id="cpu" src="Dragon.png">
+                <img id="cpufire" src="ballfire.png">
+                <img id="cpuhole" src="./Screen Shot 2018-10-26 at 6.10.39 PM.png">
+                <img id="player1" src="unnamed-1.png">
+                <img id="playerhole" src="hideinhole.png">
+                <img id="bite" src="./giphy-1.gif">
+
+                <br>
+
+                <div id="rocks">
+                <img id="rocks1" src="transparent-rocks-falling-4.gif">
+                </div>
+
+                <div id="punch">
+                <img id="punch1" src="giphy.gif">
+                </div>
+
+                <div id="poke">
+                <img id="poke1" src="8-bit-pc-png-2.png">    
+                <img id="poke2" src="Pichu-AttackAnimation-XY-1.gif">
+                </div>
+
+                <div id="swod">
+                <img id="swod1" src="Diamodd_Sword.png">    
+                </div>
+
+                <div id="magic">
+                        <img id="magic1" src="a908f41b3e47003.png">  
+                        <img id="magic2" src="magic-gif-png-5.png"> 
+                        <img id="magic3" src="MAGINVLightSpellArt.png"> 
+                        <img id="magic4" src="lightning-png-.png">   
+                </div>
+
+                <div id="scales">
+                    <ul id="dscales">
+                    <li><img src="Dragon_Scale.png"></li>
+                    <li><img src="Dragon_Scale.png"></li>
+                    <li><img src="Dragon_Scale.png"></li>
+                    <li><img src="Dragon_Scale.png"></li>
+                    <li><img src="Dragon_Scale.png"></li>
+                    </ul>
+                </div>
+
+                <div id="btns">
+                <button id="attack1">Dig!</button>
+                <button id="attack2">USE ITEM</button>
+                <button id="attack3">Punch The Dragon?</button>
+                </div>
+    
+        </div>
+
+        <div id="modalbeatdragon">
+            <p>You Beat The Mighty Dragon!
+                <br>
+                Congrats! But Theres Still A Ways To Go...
+            </p>
+        </div>
+
+
+
+        
+        <div id="modalpotion">
+            <p>THERES A MYSTERIOUS POTION ON THE GROUND, WHAT WOULD YOU LIKE TO DO?</p><br>
+            <div style="display:inline-flex">
+                    <img id="mepotion" src="./unnamed-1.png">
+                    <img id="potionn" src="minecraft_idea_8___potion_of_haste_by_thedevingreat-d6vddc3.png">
+            </div>
+            <br>
+            <button id="drink">Drink The Potion</button>
+            <button id="leavepotion">DON'T TOUCH IT!</button>
+        </div>
+
+
+
+
+        <div id="modalwin">
+            <p>You Made It All The Way To The Fair Because You Know Your Science Well! </p>
+            <p>CONGRATULATIONS!<br><br>
+            <img id="prize" src="first-prize-medal-1-46119.png"><br><br>
+            You Beat The Game And Got First Place In The Science Fair!</p><br>
+            <div style="display:inline-flex">
+                <img id="me" src="./unnamed-1.png">
+            </div>
+            <br>
+            <button class="playagain">Play Again?</button>
+        </div>
+
+
+
+
+        <div id="modalwinchance">
+            <p>It Was An Energy Drink! You Drank It And Ran The Rest Of The Way To The Fair.</p>
+            <p>CONGRATULATIONS!<br>
+            <img id="first" src="Cup-512.png"><br><br>
+            Your Science Project Earned You 1st Prize!</p><br>
+            <div style="display:inline-flex">
+                <img id="meenergy" src="./unnamed-1.png">
+                <img id="energy" src="energy.png">
+            </div>
+            <br>
+            <button class="playagain">Play Again?</button>      
+        </div>
+
+
+
+
+        <div id="modallose">
+            <p>Oh No! You Didn't Get To The Fair In Time To Show Off Your Cool Experiment!</p>
+            <p>Study Hard And Try Again!</p><br>
+            <div style="display:inline-flex">
+                <img id="melose" src="./unnamed-1.png"> 
+                <img id="wrongway" src="you-can-do-it.png">     
+            </div>
+            <br><br>
+            <button class="playagain">Play Again?</button>
+        </div>
+
+
+
+
+        <div id="modallosechance">
+            <p>YIKES!</p>
+            <p>You Got Stung By A Swarm Of Bees And Ran Away.<br>
+            By The Time You Treated The Bee Stings The Science Fair Was Over.</p><br>
+            <div style="display:inline-flex">
+                <img id="bees1" src="Bee-PNG-7.png">
+                <img id="bees2" src="./unnamed-1.png">
+                <img id="bees3" src="Beehive.png">
+            </div> 
+            <br><br>
+            <button class="playagain">Play Again?</button>             
+        </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+    </body> 
+
+
+</html>

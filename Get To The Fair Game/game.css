@@ -1,0 +1,939 @@
+html{ 
+        font-family: sans-serif; 
+    } 
+      
+body{ 
+        width: 100%;  
+        margin: 0 auto; 
+        background-color: rgb(127, 217, 255);
+    } 
+
+#ltitle{
+        float: left;
+        margin-top: 12vh;
+        margin-left: 12vw;
+        position:relative;
+}
+
+#hearts{
+    display: inline-flex;
+    float: left;
+    margin-top: 13vh;
+    margin-left: -10vw;
+    list-style: none;
+}
+
+#lives{
+    position:relative;
+}
+
+#lives img{
+        height:4vh;
+}
+
+#items{
+    float: right;
+    margin-top: 8vh;
+    margin-right: 12vw;
+    position:relative;
+}
+
+#items img{
+    height:4vh;
+}
+
+#shovelitem{
+    display: none;
+}
+
+#bookitem{
+    display: none;
+}
+
+#pokeballitem{
+    display: none;
+}
+
+#sworditem{
+    display: none;
+}
+
+#dscales{
+    display: inline-flex;
+    list-style: none;
+}
+
+#styletop{
+        background-color:#686868d7; 
+        padding: .02em;
+        margin-top: 4vh;
+        width:44vw;
+        margin-left: 26vw;
+        border-radius: 2em;
+        border: rgb(255, 255, 255);
+        border-width: 1.5vw;
+        border-style: double;
+        height:18vh;
+        color:  rgb(255, 255, 255);
+        text-shadow: #0e0d0d 1.2px 1.2px;
+    }
+
+h1{
+        font-family: "Sigmar One";
+        font-size: 5vh;
+    }
+
+/*Pics On Path And Ground START*/
+
+
+#pics{
+        display:inline-flex;
+        /* margin-top: 6vh; */
+    }
+
+#pic1{
+        margin-left:2vw;
+        position: fixed;
+        height:20vh;
+        width: 10vw;
+        margin-top: 6vh;
+    }
+
+#pic2 {
+        margin-top: 18vh;
+        margin-left:10vw;
+        position:fixed;
+        height: 8vh;
+        width: 3vw;
+    }
+
+#pic3 {
+        margin-left: 83vw;
+        height: 26vh;
+        position:fixed;
+        width: 16vw;
+        z-index: -1;
+        margin-top:1vh;
+    }
+
+.itemsonpath{
+        height: 1.5vh;
+        width:1vw;
+        margin-top: 24vh;
+        position:fixed;  
+    }
+
+#sign{
+        margin-left: 14vw;
+        height:6vh;
+        width:4vw;
+        margin-top: 20vh;
+        z-index: -1;
+}
+
+#shovel{
+        height: 5vh;
+        width:4vw;
+        margin-left:22vw;
+        margin-top: 20vh;
+        transform: rotate(-110deg);
+        display:block;
+}
+
+#pokeball{
+        height: 6vh;
+        width:4vw;
+        margin-top: 25.5vh;
+        margin-left: 26vw;
+        display:none;
+}
+
+#spellbook{
+        height: 6vh;
+        width:4vw;
+        margin-top: 25.5vh;
+        margin-left: 26vw;
+        display:none;
+}
+
+#sword{
+        height: 6vh;
+        width:4vw;
+        margin-top: 25.5vh;
+        margin-left: 26vw;
+        display:none;
+}
+
+#event{
+        margin-left: 2vw;
+    }
+
+#snake{
+        margin-left:32vw;
+        width:5vw; 
+        height:4vh;
+        margin-top: 23vh;
+        display: none;
+    }
+
+#scorpion{
+        margin-left:37vw;
+        width:18vw; 
+        height:14vh;
+        margin-top: 12vh;
+        display: none;
+        z-index: 1;
+    }
+
+#fight{
+        margin-left:47vw;
+        margin-top:5vh;
+        width:8vw;
+        height:6vh;
+        display:none;
+}
+
+#fire1{
+        margin-left: 52vw;
+        height:6vh;
+        width:5vw;
+        margin-top: 20vh;
+        transform: rotate(30deg);
+        display:none;
+}
+
+#fire2{
+        margin-left: 52vw;
+        height:6vh;
+        width:5vw;
+        margin-top: 20vh;
+        transform: rotate(30deg);
+        display:none;
+}
+
+#fire3{
+        margin-left: 52vw;
+        height:6vh;
+        width:5vw;
+        margin-top: 20vh;
+        display:none;
+}
+
+#nonevent1{
+        margin-left: 25vw;
+    }
+
+#event1{
+        margin-left: 38vw;
+        z-index: -1;
+        width:4vw;
+        height:6vh;
+        margin-top: 22vh;
+    }
+
+#nonevent2{
+        margin-left: 47vw;
+    }
+
+#triggerpotion{
+        margin-left: 61vw;
+    }
+
+#event2{
+        height:5vh;
+        margin-left: 64vw;
+        z-index: -1;
+        margin-top: 21vh;
+        width: 4vw;
+    }
+
+#nonevent3{
+        margin-left: 80vw;
+    }
+
+#groundpic{
+        height: 15vh;
+        background-image: url(https://orig00.deviantart.net/93b9/f/2012/154/e/0/minecraft_dirt_wallpaper_by_chickenman_16-d527hbu.png);
+        background-size: contain;
+        margin-top: 25vh;
+        z-index: 1;
+    }
+
+#ground{
+        background-image: url("wiki-background-1521953617.jpg");
+        background-size: 25%;
+    }
+
+/*Pics On Path And Ground END*/
+
+
+
+/* Where You Pick Your Number And The Buttons To Move Up Or Back*/
+
+#pickanumber{
+    width:20vw;
+    margin-left: 37.5vw;
+    border-radius: .5em;
+}
+
+.form{
+    text-align: center;
+    margin-top: -5vh;
+    background-color: #e1e1e1;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding-top:3vh;
+    padding-bottom:3vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.movebutton{
+    display:none;
+}
+
+#moveup{
+    margin-left: 41.5vw;
+    margin-top: -60vh;
+    display: flex;
+    width: 15.4vw;
+ }
+
+#moveback{
+    margin-left: 42vw;
+    margin-top: -61vh;
+    display: flex; 
+    width: 15vw;
+ }
+
+/*END*/
+
+
+
+/* MODALS */
+
+/**/
+#modalrules{
+        display:none;
+        z-index: 2;
+        text-align: center;
+        margin-top: 0vh;
+        background-color: darkolivegreen;
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top:5vh; /* Location of the box */
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        font-family: VT323;
+        font-size: 4.5vh;
+    } 
+    
+#modalrules p{
+       width:80vw;
+       margin-left: 10vw;
+   }
+
+#foot{
+    font-size: 3vh;
+}
+/**/
+
+
+
+
+/**/
+#modalwin{
+        display:none;
+        z-index: 2;
+        text-align: center;
+        margin-top: 0vh;
+        background-color: darkolivegreen;
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 30px; /* Location of the box */
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        font-family: VT323;
+        font-size: 5vh;
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 2.2s;
+        animation-name: animatetop;
+        animation-duration: 2.2s;
+    }
+
+#modalwin p{
+        width:80vw;
+        margin-left: 10vw;
+    }
+
+#me{
+        height:20vh;
+        margin-top: -2vh;
+    }
+
+#prize{
+        height:12vh;
+        margin-top: 2vh;  
+    }
+/**/
+
+
+
+
+/**/
+#modalwinchance{
+        display:none;
+        z-index: 2;
+        text-align: center;
+        margin-top: 0vh;
+        background-color: darkolivegreen;
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top:40px; /* Location of the box */
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        font-family: VT323;
+        font-size: 5vh;
+    }
+
+#modalwinchance p{
+        width:80vw;
+        margin-left: 10vw; 
+    }
+
+#energy{
+        height: 6vh;
+        margin-top: 8vh;
+        margin-left: 1vw;
+    }
+
+#meenergy{
+        height:20vh;
+        margin-left: 3vw;
+    }
+
+#first{
+        height:12vh;
+        margin-top: 2vh;
+    }
+#bite{
+        display: none;
+        position:fixed;
+        margin-left: -12vw;
+    }
+/**/
+
+
+
+
+/**/
+#modallose{
+        display:none;
+        z-index: 4;
+        text-align: center;
+        margin-top: 0vh;
+        background-color: darkolivegreen;
+        position: fixed; /* Stay in place */
+        padding-top: 60px; /* Location of the box */
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        font-family: VT323;
+        font-size: 5vh;
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: .2s;
+        animation-name: animatetop;
+        animation-duration: .2s;
+    }
+
+#modallose p{    
+        width:80vw;
+        margin-left: 10vw;
+    }
+
+#melose{
+        height:20vh;
+        margin-left: 0vw;
+    }
+
+#wrongway{
+        height:8vh;
+        margin-top: 2vh;
+        margin-left: 6vw;
+    }
+/**/
+
+
+
+
+/**/
+#modallosechance{
+        display:none;
+        z-index: 2;
+        text-align: center;
+        margin-top: 0vh;
+        background-color: darkolivegreen;
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 20px; /* Location of the box */
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        font-family: VT323;
+        font-size: 5vh;
+    }
+
+#modallosechance p{   
+        width:80vw;
+        margin-left: 10vw;
+    }
+
+
+#bees1{
+        height:7vh;
+        margin-top:-11vh;
+        margin-left: 2vw;
+    }
+
+#bees2{
+        height:18vh;
+        margin-left: 1vw;
+        margin-top: -5vh;  
+    }
+
+#bees3{
+        height:7vh;
+        margin-top: 6vh;
+        margin-left: 3vw;
+    }
+/**/
+
+
+/**/
+#modalsign{
+    display:none;
+    z-index: 2;
+    text-align: center;
+    margin-top: 10vh;
+    margin-left: 18%;
+    background-color: rgb(82, 66, 82);
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 30px; /* Location of the box */
+    top: 0;
+    width: 60%; /* Full width */
+    height: 70%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    font-family: VT323;
+    font-size: 5vh;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 2.2s;
+    animation-name: animatetop;
+    animation-duration: 2.2s;
+    border:white solid 2vw;
+}
+/**/
+
+
+
+
+/**/
+
+#modalshovel{
+    display:none;
+    z-index: 2;
+    text-align: center;
+    margin-top: 10vh;
+    margin-left: 18%;
+    background-color: rgb(81, 64, 45);
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 30px; /* Location of the box */
+    top: 0;
+    width: 60%; /* Full width */
+    height: 70%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    font-family: VT323;
+    font-size: 5vh;
+    border:white solid 2vw;
+}
+
+#modalshovel p{
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+#modalshovel img{
+    height: 20vh;
+    width: 30vw;
+}
+
+/**/
+
+
+
+/**/
+#modalrock{
+        display:none;
+        z-index: 2;
+        text-align: center;
+        margin-top: 0vh;
+        background-color: darkolivegreen;
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 60px; /* Location of the box */
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        font-family: VT323;
+        font-size: 5vh;
+    }
+
+#modalrock p{
+        width:80vw;
+        margin-left: 10vw;
+    }
+
+#merock{
+        height:20vh;
+    }
+
+#rockk{
+        height:12vh;
+        margin-top: 8vh;
+        margin-left: 4vw;
+    }
+/**/
+
+
+
+
+/**/
+#modaldragonfight{
+    display:none;
+    z-index: 2;
+    text-align: center;
+    margin-top: 0vh;
+    background-color: darkolivegreen;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 60px; /* Location of the box */
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    font-family: VT323;
+    font-size: 5vh;
+}
+
+#modaldragonfight p{
+    width:80vw;
+    margin-left: 10vw;
+}
+
+#vs{
+    height:9vh;
+}
+
+#cpu{
+    width:40vw;
+    height:35vh;
+    margin-left: -15vw;
+}
+
+#cpufire{
+    width:10vw;
+    margin-left: -7vw;
+    display: none;
+}
+
+#cpuhole{
+    width:40vw;
+    height:35vh;
+    margin-left: -15vw;
+    display: none;
+}
+
+#rocks{
+    margin-top: -37vh;
+    margin-left: 36vw;
+    float: left;
+}
+
+#rocks1{
+    width: 34vw;
+    height: 38vh;
+    display: none;
+}
+
+#punch{
+    margin-top: -37vh;
+    margin-left: 36vw;
+    float: left;
+}
+
+#punch1{
+    width: 34vw;
+    height: 38vh;
+    display: none;
+}
+
+#swod{
+    margin-top: -37vh;
+    margin-left: 36vw;
+    float: left;
+}
+
+#swod1{
+    width: 24vw;
+    height: 38vh;
+    display: none;
+    margin-left: 2vw;
+    transform: scaleX(-1);
+}
+
+#magic{
+    margin-top: -37vh;
+    margin-left: 40vw;
+    float: left;
+}
+
+#magic1{
+    width: 24vw;
+    height: 38vh;
+    display: none;
+    margin-left: 2vw;
+}
+
+#magic2{
+    width: 24vw;
+    height: 38vh;
+    display: none;
+    margin-left: 2vw;
+}
+
+#magic3{
+    width: 24vw;
+    height: 38vh;
+    display: none;
+    margin-left: 2vw;
+}
+
+#magic4{
+    width: 24vw;
+    height: 38vh;
+    display: none;
+    margin-left: 2vw;
+}
+
+
+#poke{
+    margin-top: -37vh;
+    margin-left: 36vw;
+    float: left;
+}
+
+#poke1{
+    width: 10vw;
+    height: 12vh;
+    display: none;
+    margin-left: 10vw;
+    margin-top: 21vh;
+}
+
+#poke2{
+    width: 34vw;
+    height: 38vh;
+    display: none;
+}
+
+#player1{
+    transform: scaleX(-1);
+    height: 25vh;
+    margin-left: 20vw;
+    z-index: 2;
+}
+
+#playerhole{
+    display: none;
+    height: 25vh;
+    margin-left: 20vw;
+    z-index: 3;
+}
+
+#scales{
+    margin-left: 10vw;
+    margin-top: -1vh;
+    position: fixed;
+}
+
+#scales img{
+    height:8vh;
+}
+
+#btns{
+    margin-left: 62vw;
+    position: fixed;
+    margin-top: 3vh;
+}
+
+/**/
+
+
+
+/**/
+#modalbeatdragon{
+    display:none;
+    z-index: 2;
+    text-align: center;
+    margin-top: 30vh;
+    background-color: rgb(121, 36, 36);
+    position: fixed; 
+    padding-top: 60px; 
+    top: 0;
+    width: 70%; 
+    height: 30%; 
+    margin-left: 13%;
+    font-family: VT323;
+    font-size: 5vh;
+    border:rgb(10, 10, 10) solid 2vw;
+}
+/**/
+
+
+
+/**/
+#modalpotion{
+        display:none;
+        z-index: 2;
+        text-align: center;
+        margin-top: 0vh;
+        background-color: darkolivegreen;
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 60px; /* Location of the box */
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        font-family: VT323;
+        font-size: 5vh;
+    }
+
+#modalpotion p{
+        width:80vw;
+        margin-left: 10vw;
+    }
+
+#mepotion{
+        height:20vh;
+    }
+
+#potionn{
+        height:8vh;
+        margin-top: 12vh;
+    }
+/**/
+
+
+
+
+/*This One Is The Questions And Answers*/
+.modal {
+        display: none; 
+        position: fixed; 
+        z-index: 1;
+        padding-top: 100px; 
+        left: 0;
+        top: 0;
+        width: 100%; 
+        height: 100%; 
+        overflow: auto; 
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.4); 
+    }
+
+.modal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 0;
+        border: 1px solid #888;
+        width: 90%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.1s;
+        animation-name: animatetop;
+        animation-duration: 0.1s;
+        text-align: center;
+    }
+
+                        /* Add Animation */
+                        @-webkit-keyframes animatetop {
+                            from {top:-300px; opacity:0} 
+                            to {top:0; opacity:1}
+                        }
+
+                        @keyframes animatetop {
+                            from {top:-300px; opacity:0}
+                            to {top:0; opacity:1}
+                        }
+
+
+.modal-header {
+        padding: 2px 16px;
+        background-color: #a09f9a;
+        color: rgb(12, 12, 12);
+    }
+
+.modal-body {
+        padding: 2px 16px;
+        background-size: cover;
+        color: white;
+        background-position-y: -10vh;
+        height: 44vh; 
+        background-color: rgb(33, 33, 33);
+    }
+
+
+#sciencequestion{
+        font-family: monospace;
+        text-align: center;
+        font-size: 3vh;
+    }
+
+#aligning{
+        display: inline-grid;
+    }
+
+.alig{ 
+        margin-top: -2.4vh;
+        float: right;
+        margin-left: 0vw; 
+    }
+
+.aligns { 
+        float:left;
+        margin-left: -11vw;        
+    }
+
+.modal-footer {
+        padding: 2px 16px;
+        background-color: #a09f9a;
+        color: white;
+    }
+/**/
+
+
+/* END OF MODALS*/
+
+
