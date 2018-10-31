@@ -1,0 +1,277 @@
+/* This Section Applies To Everything Unless otherwise set in Media Query */
+
+body{
+    background-color: rgb(69, 67, 70);
+}
+
+header{
+    height:45vh;
+    background-color: rgb(52, 85, 34);
+    border:solid rgb(48, 46, 46) 1vw;
+    background-image: url(http://backgroundcheckall.com/wp-content/uploads/2017/12/minecraft-blocks-background.jpg);
+    background-size:cover; 
+}
+
+header p{
+    text-align: center;
+    margin-left: 25vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-size: 12vh;
+    color:white;
+    width:38vw;
+    text-shadow: 2px 2px black;
+}
+
+#toptext{
+    text-align: center;
+    background-color: rgb(52, 85, 34);
+    height: 20vh;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5vh;
+    border:solid gray .8vw;
+    margin-top: 4vh;
+}
+
+#toptext p{
+    padding-top: 3vh;
+}
+
+#games{
+    text-align: center;
+}
+
+#g1{
+    margin-left: 18vw;
+}
+
+#g2{
+    height:44vh;
+    width:32vw;
+}
+
+.arrows{
+    height:5vh;
+    width:8vw;
+}
+
+#arrowleft{
+    transform: scaleX(-1);
+}
+
+#morecoming{
+    text-align: center;
+    background-color: rgb(52, 85, 34);
+    height: 20vh;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5vh;
+    border:solid gray .8vw;
+    margin-top: 4vh;
+}
+
+#morecoming p{
+    padding-top: 3vh;
+    
+}
+
+
+footer p{
+    margin-top: -.5vh;
+    font-size: 1.4em;
+}
+
+    footer a{
+        color:white;
+    }
+
+footer{
+    margin-top: 4vh;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color:white;
+    height:14vh;
+    padding:2em;
+    border: solid;
+    border-width: 1vw;
+    border-color: rgb(48, 46, 46);
+
+}
+
+
+@media (max-width:825px){
+    
+    header{
+        height:50vh;
+    }
+    
+    header p{
+        font-size: 2.8em;
+    }
+
+    #toptext{
+        height:18vh;
+        font-size: 4vh;
+        padding-top: 3vh;
+
+    }
+    
+    #toptext p{
+        padding-top: 0vh;
+    }
+
+    #games img{
+        height:45vh;
+    }
+
+    #morecoming{
+        font-size: 1em;
+    }
+
+    footer p{
+        font-size: 1.2em;
+        margin-top: -1vh;
+    }
+    
+    footer{
+        height:27vh;
+
+    }
+
+}
+
+@media (max-width:450px){
+
+    header{
+        height:35vh;
+    }
+    
+    header p{
+        text-align: center;
+        margin-left: 15vw;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        font-size: 8vh;
+        color:white;
+        width:60vw;
+    }
+
+    #toptext{
+        text-align: center;
+        background-color: rgb(52, 85, 34);
+        height: 12vh;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 3vh;
+        border:solid gray .8vw;
+        margin-top: 4vh;
+        
+    }
+
+    #toptext p{
+        padding-top: 0vh;
+    }
+
+    #games img{
+        height:25vh;
+    }
+
+    #morecoming{
+        font-size: 2vh;
+        height:14vh;
+    }
+
+    footer{
+        font-size: .8em;
+        height:14vh;
+    }
+
+
+}
+
+@media only screen 
+and (min-device-width : 750px) 
+and (min-device-height : 1000px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 1){
+
+    header{
+        height:30vh;
+    }
+
+    header p{
+        font-size: 3.5em;
+    }
+
+    #toptext{
+        height:10vh;
+    }
+
+    #toptext p{
+        margin-top: 1vh;
+    }
+
+    #games img{
+        height:30vh;
+    }
+
+    
+    #morecoming{
+        font-size: 2.7vh;
+        height:14vh;
+    }
+
+    footer p{
+        margin-top: .5vh;
+    }
+
+    footer{
+        font-size: 1em;
+        height: 12vh;
+    }
+
+}
+
+@media only screen 
+and (min-device-width : 1000px) 
+and (min-device-height : 750px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 1){
+    
+    #toptext{
+        text-align: center;
+        background-color: rgb(52, 85, 34);
+        height: 16vh;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 5vh;;
+        border:solid gray .8vw;
+        margin-top: 3vh;
+        
+    }
+
+    #toptext p{
+        padding-top: 0vh;
+    }
+
+    #morecoming{
+        text-align: center;
+        background-color: rgb(52, 85, 34);
+        height: 16vh;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 5vh;
+        border:solid gray .8vw;
+        margin-top: 3vh;
+    }
+
+    #morecoming p{
+        padding-top: 0vh;
+    }
+
+    #footer{
+        height:20vh;
+    }
+
+}

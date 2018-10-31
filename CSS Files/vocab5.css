@@ -1,0 +1,335 @@
+/* This Section Applies To Everything Unless otherwise set in Media Query */
+
+#toptext{
+    text-align: center;
+    background-color: rgb(8, 24, 44);
+    height: 22em;
+    font-size: 1.3em;
+    border:solid;
+    border-width:.2em;
+    border-color: black;
+    color: whitesmoke;
+    text-shadow: 1.2px 1.2px rgb(12, 12, 12);
+    line-height: 2vh;
+}
+
+
+h1{
+    padding-top: .7em;
+    font-size: 4.4em;
+}
+
+#tline{
+  display:inline-flex;
+}
+
+h3{
+    text-align: center;
+    background-color:rgb(156, 151, 151);
+    border:solid;
+    border-radius: 12px;
+    width:100vw;
+    padding-top:.8em;
+    padding-bottom:.8em;
+    margin-left:0vw;
+    color:white;
+}
+
+h3 img{
+    height:1.5em;
+}
+
+
+.words {
+    display: inline-grid;
+    width:21vw;
+    font-family: monospace;
+    margin:5px;
+    font-size: 2em;
+    text-align: center;
+    height:32vh;
+    background-color: rgb(54, 86, 110);
+    margin-top: 3vh;
+    border: solid;
+    border-color: black;
+    border-width: .25em;
+    transition: all .4s;
+    margin-left: 1.8vw;
+    border-radius:20px ;
+}
+
+.words:hover {
+    background-color:rgb(45, 80, 140) ;
+    
+}
+
+.words p {
+    padding:1.6em;
+    color: whitesmoke;
+}
+
+#seasoncards {
+    background-image: url(../Pictures/four-seasons-abstract-trees-vector.jpg);
+    background-size: cover;
+    height: 75vh;
+    background-position: center;
+    background-repeat:repeat;
+}
+
+@media(max-width:2100px){
+
+#tline p{
+       font-size:5vh;
+}
+
+
+h1{
+        margin-top: -5vh;
+        font-size: 4.4em;
+        margin-left: 20vw;
+        margin-right: 20vw;
+        line-height: 12vh;
+    }
+
+    h2{
+        margin-left:10vw;
+        margin-right: 10vw;
+        font-family: monospace; 
+    }
+    
+
+h3{
+    text-align: center;
+    background-color:rgb(156, 151, 151);
+    border:solid;
+    border-radius: 12px;
+    width:98.5vw;
+    padding-top:.8em;
+    padding-bottom:.8em;
+    margin-left:0vw;
+}
+
+.words {
+        display: inline-flex;
+        width:21.8vw;
+        font-family: monospace;
+        font-size: 1.3em;
+        height:26vh;
+        background-color: rgb(54, 86, 110);
+        margin-top: 3vh;
+        border: solid;
+        border-color: black;
+        border-width: .25em;
+        transition: all .4s;
+        margin-left: 1.3vw;
+        border-radius:20px ;
+    }
+    
+    .words:hover {
+         background-color:rgb(45, 80, 140) ;
+    
+    }
+    
+    .words p {
+        color: whitesmoke;
+    }
+    
+    #seasoncards {
+        background-image: url(../Pictures/four-seasons-abstract-trees-vector.jpg);
+        background-size: cover;
+        height: 64vh;
+        background-position: center;
+        background-repeat:no-repeat;
+        background-color: rgb(224, 222, 217);
+        border:solid;
+        border-width:.5vw;
+        border-color:rgb(102, 82, 45);
+        border-radius:1em;
+    }
+
+    footer a{
+        color:white;
+    }
+        
+    footer p{
+            font-size: 3.4vh;
+            margin-top: 5vh;
+    }
+    
+    footer{
+            text-align: center;
+            background-color: rgb(37, 37, 37);
+            color:rgb(255, 255, 255);
+            height:30vh;
+            border: rgb(206, 206, 206) solid .5vw;
+            width:98vw;
+            padding:0em;
+    
+    }    
+}
+
+@media (max-width:1300px){
+
+    .words {
+        width:21.2vw;  
+    }
+
+    h3{
+        width:98vw;
+    }
+
+}
+
+@media (max-width:825px){
+
+h1{
+        margin-top: -12vh;
+    }
+
+h2 {
+        margin-left: 23vw;
+        margin-right: 23vw;
+        margin-top: -3vh;
+    }
+
+#seasoncards{
+        height:100vh;
+    }
+
+.words{
+        margin-left: .7vw;
+        height:42vh;
+        font-size: 3vh;
+    }
+
+
+
+    footer a{
+        color:white;
+    }
+    
+    footer p{
+            margin-top: 6vh;
+    }
+    
+    footer{
+            text-align: center;
+            background-color: rgb(32, 32, 32);
+            color:rgb(255, 255, 255);
+            height:36vh;
+            border: rgb(206, 206, 206) solid .5vw;
+            width:97vw;
+            padding:0em;
+    }
+
+}
+
+@media (max-width:450px){
+
+h1{
+        margin-top: 2vh;
+        font-size: 2.5em;
+        line-height: 7vh;
+    }
+
+    h2{
+        padding-top: 5vh;
+        font-size: 2vh;
+        line-height: 3vh;
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+
+  h3{
+    text-align: center;
+    background-color:rgb(156, 151, 151);
+    border:solid;
+    border-radius: 12px;
+    width:97vw;
+    padding-top:.8em;
+    padding-bottom:.8em;
+    margin-left:-1vw;
+}
+
+#lesson1{
+        margin-top: 0vh;
+    }
+
+    #seasoncards{
+        height:100vh;
+        text-align: center;
+        width:98vw;
+        margin-left:-1vw;
+    }
+
+    .words {
+        width:44vw;
+        height:20vh;
+        margin-left: 1.1vw;
+        font-size: 1.7vh;
+    }
+
+    .words p{
+        padding:1.8em;
+        
+    }
+
+    footer p{
+        margin-top: 4vh;
+        font-size: 2vh;
+    }
+    
+    footer{
+        text-align: center;
+        background-color: rgb(32, 32, 32);
+        color:rgb(255, 255, 255);
+        height:26vh;
+        border: rgb(206, 206, 206) solid .5vw;
+        width:96vw;
+        padding:0em;
+        margin-left: 0vw;
+    
+    }
+}
+
+@media only screen 
+and (min-device-width : 750px) 
+and (min-device-height : 1000px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 1){
+
+    #tline p{
+        font-size: 4vh;
+    }
+
+    .words {
+        display: inline-flex;
+        width:20.7vw;
+        font-family: monospace;
+        font-size: 1.2em;
+        height:26vh;
+        background-color: rgb(54, 86, 110);
+        margin-top: 3vh;
+        border: solid;
+        border-color: black;
+        border-width: .25em;
+        transition: all .4s;
+        margin-left: 1.3vw;
+        border-radius:20px ;
+    }
+
+    #seasoncards{
+        height:64vh;
+    }
+
+    footer p{
+        margin-top: 4vh;
+        font-size: 2vh;
+    }
+
+    footer{
+        height:24vh;
+    }
+
+}
+

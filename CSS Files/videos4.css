@@ -1,0 +1,431 @@
+/* This Section Applies To Everything Unless otherwise set in Media Query */
+
+@media (max-width:2100px){
+
+body{
+    background-color: #979595;
+
+}
+
+header img{
+    background-color: #cc181e;
+    height: 75vh;
+    border: solid;
+    border-width: 2vw;
+    line-height: 13vh;
+    width:95vw;
+
+}
+
+h1{
+    color:#f1f1f1;
+    text-align: center;
+    font-family: monospace;
+    text-shadow: 3.5px 3.5px black;
+    font-size: 10em; 
+    margin-top: 10vh;
+    line-height:16vh;
+}
+
+#topmessage{
+    text-align: center;
+    font-family: monospace;
+    font-size: 2.3em;
+    background-color: #f1f1f1;
+    border-color:black;
+    border-bottom: solid;
+    border-top: solid;
+    margin-top: 0vh;
+    margin-bottom:0vh;
+    padding-top:2vh;
+    padding-bottom:2vh;
+}
+
+#topmessage2{
+    display:none;
+}
+
+#toptext{
+    background-color: #cc181e;
+    height: 18em;
+    border: solid;
+    border-width: 1em;
+    line-height: 8vh;
+    margin-top: 40vh;
+}
+
+#toptext p{
+    color:#f1f1f1;
+    text-align: center;
+    margin-top: -1vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 3.5px 3.5px black;
+    font-size: .8em;
+}
+
+#textchoice {
+    text-align: center;
+    color:white;
+    font-size: 1.4em;
+    background-color: black;
+    padding:.4em;
+    margin-top: 8vh;
+    border-top:solid rgb(255, 255, 255) 1vw;
+    border-bottom:solid rgb(255, 255, 255) 1vw;
+}
+
+#lchoice{
+    color: rgb(73, 73, 73);
+    margin-top: 2vh;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.4em;
+    width:99vw;
+    border-width: 1.2vw;
+    display: inline-flex;
+    overflow-x: scroll;
+}
+
+#lchoice img{
+    float: left;
+    height:15vh;
+    width:13vw;
+    padding-top:2vh;
+    padding-bottom:2vh;
+}
+
+#magnet{
+    margin-left: 5vw;
+    float: left;
+}
+
+#saturn{
+    margin-left: 25vw;
+    float: left;
+}
+
+#chem{
+    margin-left: 25vw;
+    float: left;
+}
+
+#dino{
+    margin-left: 25vw;
+    float: left;
+}
+
+#ocean{
+    margin-left: 25vw;
+    float: left;
+}
+
+#geo{
+    margin-left: 25vw;
+    float: left;
+}
+
+#bug{
+    margin-left: 25vw;
+    float: left;
+}
+#garden{
+    margin-left: 25vw;
+    float: left;
+}
+
+#atom{
+    margin-left: 25vw;
+    float: left;
+}
+
+#zoo{
+    margin-left: 25vw;
+    float: left;
+}
+
+#dna{
+    margin-left: 25vw;
+    float: left;
+}
+
+
+#scroll3{
+    overflow: scroll;
+    display: inline-block;
+    width:94vw;
+    height:70vh;
+    padding-bottom:5vh;
+    margin-top:1vh;
+}
+
+
+h1{
+    font-size: 7em;
+}
+
+#earthvids{
+    text-align: center;
+    border: white solid;
+    background-image: url(https://i.ytimg.com/vi/JGXi_9A__Vc/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius:.75em;
+}
+
+#scroll3 iframe{
+    background-color: white;
+    margin-left: 23.5vw;
+    height: 38vh;
+    width:50%;
+    float:left;
+    margin-top: 5vh;
+    padding:.15em;
+    
+}
+
+.headings{
+    text-align: center;
+    color:whitesmoke;
+    font-size: 1.5em;
+    padding-top:1.5em;
+    font-size: 2em;
+    width:60vw;
+    margin-left: 19vw;
+}
+
+.headings p{
+    background-color:white;
+    border:solid;
+    border-color:black;
+    margin: 2em;
+    color:black;
+    border-radius:.4em;
+    text-align: center;
+    border-width: 1vw;
+}
+
+footer p{
+    margin-top:2.5vh;
+    }
+
+footer a{
+        color:white;
+    }
+
+
+
+footer{
+    text-align: center;
+    background-color: black;
+    color:white;
+    height:22vh;
+    padding:2em;
+    margin-top: 3vh;
+    border:solid 2vw #cc181e;
+}
+
+}
+
+
+@media(max-width:850px){
+
+    header img{
+    height:85vh;
+    margin-left:-.75vw;
+    
+    }
+
+    #scroll3 iframe{
+     height:50vh;
+     width:40vw;
+     margin-left:27.5vw;
+    }
+    
+    #scroll3{
+    margin-top:-10vh;
+    padding-bottom:5vh;
+    }
+
+    #lchoice{
+        width:98vw;
+    }
+    
+    #lchoice img{
+    float: left;
+    height:20vh;
+    width:12vw;
+    padding-top:2vh;
+    padding-bottom:2vh;
+    margin-left:4.2vw;
+}
+
+#magnet{
+    margin-left: 5vw;
+    float: left;
+}
+
+#saturn{
+    margin-left: 18vw;
+    float: left;
+}
+
+#chem{
+    margin-left: 18vw;
+    float: left;
+}
+
+#dino{
+    margin-left: 18vw;
+    float: left;
+}
+
+#ocean{
+    margin-left: 18vw;
+    float: left;
+}
+
+#geo{
+    margin-left: 18vw;
+    float: left;
+}
+
+#bug{
+    margin-left: 18vw;
+    float: left;
+}
+#garden{
+    margin-left: 18vw;
+    float: left;
+}
+
+#atom{
+    margin-left: 18vw;
+    float: left;
+}
+
+#zoo{
+    margin-left: 18vw;
+    float: left;
+}
+
+#dna{
+    margin-left: 18vw;
+    float: left;
+}
+
+footer p{
+    font-size: 4vh;
+}
+
+footer{
+    height:24vh;
+    border:solid 2vw #cc181e;
+}
+
+}
+
+@media(max-width:425px){
+
+header img {
+    height:55vh;
+    margin-left:-1.5vw;
+
+}
+
+.headings{
+    text-align: center;
+    color:whitesmoke;
+    font-size: 1.5em;
+    padding-top:1.5em;
+    font-size: 4vh;
+    width:60vw;
+    margin-left: 18vw;
+}
+
+.headings p{
+    background-color:white;
+    border:solid;
+    border-color:black;
+    margin: 0em;
+    color:black;
+    border-radius:.4em;
+    text-align: center;
+    border-width: 1vw;
+}
+
+#lchoice{
+
+    width:96vw;
+
+}
+
+#lchoice img{
+    float: left;
+    height:10vh;
+    width:13vw;
+    padding-top:2vh;
+    padding-bottom:2vh;
+    margin-left:3vw;
+}
+
+#scroll3{
+    margin-top:1vh;
+}
+
+  #scroll3 iframe{
+     height:30vh;
+     width:60vw;
+     margin-left:17.5vw;
+    }
+
+footer p{
+    margin-top:.25vh;
+    font-size: 2.5vh;
+
+    }
+    
+footer{
+    height:17vh;
+    border:solid 2vw #cc181e;
+    }
+    
+    }
+
+
+@media only screen 
+and (min-device-width : 750px) 
+and (min-device-height : 1000px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 1){
+
+    header img{
+       height:55vh;
+    }
+    
+#scroll3 iframe{
+     height:28vh;
+     width:60vw;
+     margin-left:17.5vw;
+    }
+    
+    #scroll3{
+    margin-top:-4vh;
+    padding-bottom:5vh;
+    }
+    
+    #lchoice img{
+        height:11vh;
+        width:13vw;
+    }
+    
+    footer p{
+        margin-top:1.5vh;
+        font-size:3.5vh;
+    }
+    
+    footer{
+        height:20vh;
+    }
+
+}
+
+

@@ -1,0 +1,628 @@
+/* This Section Applies To Everything Unless otherwise set in Media Query */
+
+body{
+    margin-left: -.45vw;
+}
+
+    footer a{
+        color:white;
+    }
+    
+
+@media(max-width:3000px){
+
+header img{
+    width:96vw;
+    height:65vh;
+    text-align: center;
+    background-color: dimgray;
+    border:solid 2vw rgb(199, 172, 17);
+}
+
+#toptext{
+    text-align: center;
+    height:12vh;
+    background-color: rgb(219, 121, 142);
+    border-top: solid 2vw rgb(121, 83, 83);
+    border-bottom: solid 2vw rgb(121, 83, 83);
+    margin-top: 3vh;
+    width:100vw;
+}
+
+#toptext p{
+ color: white;
+ font-size: 3vh;
+}
+
+#middle{
+    border:solid 2vw rgb(199, 172, 17);
+    text-align: center;
+    background-color: darkgray;
+    margin-top: 3vh;
+    width:96vw;
+}
+
+#pmess{
+    margin-top: 18vh;
+    margin-left: 22vw;
+    margin-right: 22vw;
+    color: white;
+    font-size: 3.5vh;
+}
+
+#midc{
+    display: inline-flex;
+    margin-left: -12vw;
+    margin-top: 3vh;
+}
+
+#prof{
+    height:65vh;
+
+}
+
+#pdf img{
+   height:26vh;
+}
+
+
+
+#pastweeks{
+margin-top: 3vh;
+font-size: 3vh;
+overflow-x: scroll;
+width:100vw;
+display:inline-flex;
+
+}
+
+#past{
+background-color: rgb(219, 121, 142);
+height:7vh;
+margin-top: 3vh;
+height:12vh;
+border-top:solid 2vw rgb(121, 83, 83);
+border-bottom:solid 2vw rgb(121, 83, 83);
+text-align: center;
+color:white;
+font-size: 3vh;
+width:100vw;
+}
+
+
+
+#pastweeks img{
+  padding: 1em;
+  display:inline-flex;
+  margin-left: 3vw;
+  height:17vh;
+  width:14vw;
+}
+
+
+#magnet{
+	margin-left: 2vw;
+}
+
+#saturn{
+	margin-left: 16vw;	
+}
+
+#chem{
+	margin-left: 16vw;
+}
+
+#dino{
+	margin-left: 16vw;
+}
+
+#ocean{
+	margin-left: 16vw;
+}
+
+#geo{
+	margin-left: 16vw;
+}
+
+#bug{
+	margin-left: 16vw;
+}
+
+#garden{
+	margin-left: 16vw;
+}
+
+#atom{
+	margin-left: 16vw;
+}
+
+#zoo{
+	margin-left: 16vw;
+}
+
+#dna{
+	margin-left: 16vw;
+}
+
+footer{
+
+text-align: center;
+background-color: rgb(87, 85, 85);
+color:white;
+height:27vh;
+font-size: 3.5vh;
+padding-top: 3vh;
+border:solid 2vw rgb(199, 172, 17);
+width:96vw;    
+
+}
+
+}
+
+@media(max-width:1400px){
+    header img{
+        width:96vw;
+        height:65vh;
+        text-align: center;
+        background-color: dimgray;
+        border:solid 2vw rgb(199, 172, 17);
+    }
+
+    #toptext{
+        text-align: center;
+        height:12vh;
+        background-color: rgb(219, 121, 142);
+        border-top: solid 2vw rgb(121, 83, 83);
+        border-bottom: solid 2vw rgb(121, 83, 83);
+        margin-top: 3vh;
+        width:100vw;
+    }
+ 
+    #toptext p{
+     color: white;
+     font-size: 3vh;
+    }
+
+    #middle{
+        border:solid 2vw rgb(199, 172, 17);
+        text-align: center;
+        background-color: darkgray;
+        margin-top: 3vh;
+        width:96vw;
+    }
+ 
+    #pmess{
+        margin-top: 18vh;
+        margin-left: 22vw;
+        margin-right: 22vw;
+        color: white;
+        font-size: 3.5vh;
+    }
+ 
+    #midc{
+        display: inline-flex;
+        margin-left: -12vw;
+        margin-top: 3vh;
+    }
+ 
+    #prof{
+        height:65vh;
+
+    }
+ 
+   #pdf img{
+       height:26vh;
+   }
+
+   #pastweeks{
+    margin-top: 3vh;
+    font-size: 3vh;
+    overflow-x: scroll;
+    width:100vw;
+    display:inline-flex;
+    
+}
+
+#past{
+    background-color: rgb(219, 121, 142);
+    height:7vh;
+    margin-top: 3vh;
+    height:12vh;
+    border-top:solid 2vw rgb(121, 83, 83);
+    border-bottom:solid 2vw rgb(121, 83, 83);
+    text-align: center;
+    color:white;
+    font-size: 3vh;
+    width:100vw;
+  }
+
+
+
+  #pastweeks img{
+      padding: 1em;
+      display:inline-flex;
+      margin-left: 2vw;
+      height:16vh;
+      width:14vw;
+  }
+
+footer{
+ 
+  text-align: center;
+  background-color: rgb(87, 85, 85);
+  color:white;
+  height:27vh;
+  font-size: 3.5vh;
+  padding-top: 3vh;
+  border:solid 2vw rgb(199, 172, 17);
+  width:96vw;    
+
+  }
+}
+
+@media(max-width:1050px){
+    header img{
+        width:96vw;
+        height:58vh;
+        text-align: center;
+        background-color: dimgray;
+        border:solid 2vw rgb(199, 172, 17);
+    }
+
+    #toptext{
+        text-align: center;
+        height:12vh;
+        background-color: rgb(219, 121, 142);
+        border-top: solid 2vw rgb(121, 83, 83);
+        border-bottom: solid 2vw rgb(121, 83, 83);
+        margin-top: 3vh;
+        width:100vw;
+    }
+ 
+    #toptext p{
+     color: white;
+     font-size: 3vh;
+    }
+
+    #middle{
+        border:solid 2vw rgb(199, 172, 17);
+        text-align: center;
+        background-color: darkgray;
+        margin-top: 3vh;
+        width:96vw;
+    }
+ 
+    #pmess{
+        margin-top: 18vh;
+        margin-left: 22vw;
+        margin-right: 22vw;
+        color: white;
+        font-size: 3.5vh;
+    }
+ 
+    #midc{
+        display: inline-flex;
+        margin-left: -12vw;
+        margin-top: 3vh;
+    }
+ 
+    #prof{
+        height:65vh;
+
+    }
+ 
+   #pdf img{
+       height:26vh;
+   }
+
+   #pastweeks{
+    margin-top: 3vh;
+    font-size: 3vh;
+    overflow-x: scroll;
+    width:100vw;
+    display:inline-flex;
+    
+}
+
+#past{
+    background-color: rgb(219, 121, 142);
+    height:7vh;
+    margin-top: 3vh;
+    height:12vh;
+    border-top:solid 2vw rgb(121, 83, 83);
+    border-bottom:solid 2vw rgb(121, 83, 83);
+    text-align: center;
+    color:white;
+    font-size: 3vh;
+    width:100vw;
+  }
+
+
+
+  #pastweeks img{
+      padding: 1em;
+      display:inline-flex;
+      margin-left: -2vw;
+      height:11vh;
+      width:14vw;
+  }
+
+footer{
+ 
+  text-align: center;
+  background-color: rgb(87, 85, 85);
+  color:white;
+  height:27vh;
+  font-size: 3.5vh;
+  padding-top: 3vh;
+  border:solid 2vw rgb(199, 172, 17);
+  width:96vw;    
+
+  }
+
+}
+
+
+@media(max-width:825px){
+
+    
+    header img{
+        
+        width:96vw;
+        height:68vh;
+        text-align: center;
+        background-color: dimgray;
+        border:solid 2vw rgb(199, 172, 17);
+    }
+
+    
+
+    #toptext{
+        text-align: center;
+        height:16vh;
+        background-color: rgb(219, 121, 142);
+        border-top: solid 2vw rgb(121, 83, 83);
+        border-bottom: solid 2vw rgb(121, 83, 83);
+        margin-top: 3vh;
+        width: 100vw;
+        
+ 
+    }
+ 
+    #toptext p{
+     color: white;
+     font-size: 5vh;
+
+    }
+
+    #middle{
+        border:solid 2vw rgb(199, 172, 17);
+        text-align: center;
+        background-color: darkgray;
+        margin-top: 3vh;
+        width:96vw;
+    }
+ 
+    #pmess{
+        margin-top: 18vh;
+        margin-left: 22vw;
+        margin-right: 22vw;
+        color: white;
+        font-size: 4.5vh;
+    }
+ 
+    #midc{
+        display: inline-flex;
+        margin-left: -12vw;
+        margin-top: 3vh;
+    }
+ 
+    #prof{
+        height:65vh;
+    }
+ 
+   #pdf img{
+       height:33vh;
+   }
+
+   #pastweeks{
+    margin-top: 3vh;
+    overflow-x: scroll;
+    width:100vw;
+    display:inline-flex;
+    
+}
+
+#past{
+    background-color: rgb(219, 121, 142);
+    height:7vh;
+    margin-top: 3vh;
+    height:16vh;
+    border-top:solid 2vw rgb(121, 83, 83);
+    border-bottom:solid 2vw rgb(121, 83, 83);
+    text-align: center;
+    color:white;
+    width:100vw;
+    font-size: 5vh;
+  }
+
+
+
+  #pastweeks img{
+      padding: 1em;
+      display:inline-flex;
+      margin-left: -2vw;
+      height:14vh;
+      width:13vw;
+  }
+
+footer{
+ 
+  text-align: center;
+  background-color: rgb(87, 85, 85);
+  color:white;
+  height:38vh;
+  font-size: 5vh;
+  padding-top: 3vh;
+  border:solid 2vw rgb(199, 172, 17);
+  width:96vw;    
+
+  }
+}
+
+@media(max-width:425px){
+   
+   body{
+       background-color: rgb(252, 252, 252);
+   }
+
+   header img{
+       width:96vw;
+       border:solid 2vw rgb(199, 172, 17);
+       height:30vh;
+   }
+
+   #toptext{
+       text-align: center;
+       height:9vh;
+       background-color: rgb(219, 121, 142);
+       border-top: solid 2vw rgb(121, 83, 83);
+       border-bottom: solid 2vw rgb(121, 83, 83);
+       margin-top: 3vh;
+       width:100vw;
+
+   }
+
+   #toptext p{
+    color: white;
+    font-size: 3vh;
+   }
+
+
+
+   #middle{
+       border:solid 2vw rgb(199, 172, 17);
+       text-align: center;
+       background-color: darkgray;
+       margin-top: 3vh;
+       width:96vw;
+   }
+
+   #pmess{
+       margin-top: 8vh;
+       margin-left: 12vw;
+       margin-right: 12vw;
+       color: white;
+       font-size: 2.7vh;
+   }
+
+   #midc{
+       display: inline-flex;
+       margin-left: -12vw;
+       margin-top: 3vh;
+   }
+
+   #prof{
+       height:35vh;
+   }
+
+  #pdf img{
+      height:16vh;
+  }
+
+  #pastweeks{
+      margin-top: 3vh;
+      overflow-x: scroll;
+      width:100vw;
+      display:inline-flex;
+      
+  }
+
+  #past{
+      background-color: rgb(219, 121, 142);
+      height:7vh;
+      margin-top: 3vh;
+      height:9vh;
+      border-top:solid 2vw rgb(121, 83, 83);
+      border-bottom:solid 2vw rgb(121, 83,     83);
+      color:white;
+      text-align: center;
+      width:100vw;
+      font-size: 3vh;
+    }
+
+
+
+    #pastweeks img{
+        padding: 1em;
+        margin-left: -2vw;
+        height:9vh;
+        width:14vw;
+    }
+    
+    footer{
+   
+    text-align: center;
+    background-color: rgb(87, 85, 85);
+    color:white;
+    height:22vh;
+    font-size: 2.3vh;
+    padding-top: 3vh;
+    border:solid 2vw rgb(199, 172, 17);
+    width:96vw;    
+
+    }
+
+}
+
+@media only screen 
+and (min-device-width : 750px) 
+and (min-device-height : 1000px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 1){
+
+    header img{
+        height:40vh;
+    }
+
+    #htext{
+        font-size: 7vh;
+    }
+
+    #toptext{
+        height:9vh;
+    }
+
+    #toptext p{
+        font-size: 3vh;
+       }
+
+    #pdf img{
+        height:24vh;
+        margin-left: -2vw;
+    }
+
+    #past{
+        height:9vh;
+        font-size: 3vh;
+    }
+
+    footer{
+        font-size: 4vh;
+        height:32vh;
+    }
+
+}
+
+@media only screen 
+and (device-width : 1024px) 
+and (device-height : 768px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 1){
+
+    header img{
+        height:62vh;
+    }
+
+
+}

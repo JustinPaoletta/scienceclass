@@ -1,0 +1,279 @@
+/* This Section Applies To Everything Unless otherwise set in Media Query */
+
+  
+
+@media(max-width:2100px){
+
+
+body{
+    background-color: rgb(201, 201, 201);
+    font-family: monospace;
+    margin-left: -.3vw;
+}
+
+#arrows{
+    display: inline-flex;
+    float: left;
+    margin-top: -20vh;
+    position:relative;
+    margin-left: 0vw;
+}
+
+#arrows p{
+    margin-left: 22vw;
+    font-size: 3vh;
+}
+
+#arrows img{
+    height:6vh;
+    width:5vw;
+    margin-left: 5vw;
+    margin-top: 2vh;
+
+}
+
+footer a{
+        color:white;
+    }
+
+    header{
+        height:55vh;
+        width:100vw;
+        margin-top: 0vh;
+        background-color:rgb(114, 114, 114);
+        background-image: url("../Pictures/Screen\ Shot\ 2018-10-28\ at\ 11.55.08\ PM.png");
+        background-size:100vw 55vh;
+    
+    }
+    
+    header p{
+        font-size: 15vh;
+        margin-left: 0vw;
+        color: white;
+        transform: rotate(-8deg);
+        padding-top: 12vh;
+        text-align: center;
+    }
+    
+    #topbar{
+        text-align: center; 
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1.6vh;
+        background-color: rgb(39, 39, 39);
+        color:white;
+        height:6vh;
+        width:100vw;
+    }
+    
+    .sects{
+        
+        height:60vh;
+        font-size:25px;
+        color: black;
+        border:solid 2vw rgb(134, 134, 134);
+        border-radius: .2em;
+        width:96vw;
+        
+    }
+    
+    #toptext{
+        transform: rotate(0deg);
+        margin-top: 6vh;
+        font-weight:bold;
+        font-size: 6vh;
+        text-align: center;        
+    }
+    
+
+    #p1 {
+        background-color: rgb(171, 56, 43);
+        text-align: center;
+        height:45vh;
+    }
+    
+    #p2 {
+        background-color:rgb(198, 198, 94) ;
+        height:45vh;
+        height:66vh;
+        position: auto;
+    }
+
+    #test{
+        display:none;
+    }
+
+    #test2{
+        display:none;
+    }
+
+    #projectphoto{
+        height:35vh;
+        border:solid .2vw rgb(255, 255, 255);
+        float: right;
+        margin-right: 10vw;
+        margin-top: -20vh;
+    }
+    
+    #projectname{
+        margin-top: 3vh;
+        float: left;
+        font-size: 5vh;
+        margin-left: 12vw;
+    }
+
+    #projectinfo{
+        width:40vw;
+        margin-left: 10vw;
+    }
+
+    #projectlinks{
+        margin-left: 15vw;
+    }
+    
+    #p3{
+        background-color:rgb(20, 92, 155);
+        vertical-align: top;
+        color: black;
+        height:40vh;
+        text-align: center;
+        
+    }
+    
+    #content3{
+        margin-top: 7vh;
+        margin-left: 0vw;
+        font-size: 6vh;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    #content3 img{
+
+        height:8vh;
+        width:5vw;
+    }
+    
+    footer p{
+        padding-top: 3vh;
+        font-size: 2vh;
+    }
+    
+    
+    footer{
+        text-align: center;
+        background-color: black;
+        color:white;
+        height:40vh;
+        width:100vw;
+        line-height:.8vh;
+        padding-top: 2vh;
+    }
+}
+
+
+
+
+@media(max-width:1000px){
+ 
+    #p1{
+        height:100vh;
+    }
+    #toptitle{
+        width:80vw;
+        margin-left: 8vw;
+    }
+    #p2{
+        height:80vh;
+    }
+    #projectname{
+        font-size: 6vh;
+    }
+    #projectinfo{
+        margin-top: -10vh;
+        font-size: 4vh;
+    }
+    #projectphoto{
+        margin-top: -30vh;
+    }
+    #projectlinks{
+        font-size: 4vh;
+    }
+
+
+}
+
+@media(max-width:600px)
+and (orientation : landscape){
+
+    #p1 p{
+        font-size: 5vh;
+    }
+
+}
+
+@media only screen 
+and (min-device-width : 299px) 
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1) { 
+    #p1{
+        font-size: 2vh;
+        height:40vh;
+    }
+    #p2{
+        height: 80vh;
+    }
+    #projectname{
+        font-size: 4vh;
+    }
+    #projectinfo{
+        margin-top: -10vh;
+        font-size: 3vh;
+    }
+    #projectphoto{
+        margin-top: -20vh;
+        height:14vh;
+        width:25vw;
+        margin-right: 10vw;
+    
+    }
+    #projectlinks{
+        font-size: 2vh;
+    }
+    #content3{
+        font-size: 4vh;
+    }
+    #content3 img{
+        height:8vh;
+        width:12vw;
+    }
+}
+
+@media only screen 
+and (min-device-width : 700px) 
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1) { 
+    #p1{
+        height:40vh;
+    }
+    #p2{
+        height:64vh;
+    }
+    #projectname{
+        font-size: 4vh;
+    }
+    #projectinfo{
+        margin-top: 1vh;
+        font-size: 3vh;
+    }
+    #projectphoto{
+        margin-top: -25vh;
+        height:18vh;
+        width:28vw;
+    }
+    #projectlinks{
+        font-size: 2vh;
+    }
+}
+
+
+
