@@ -1,475 +1,592 @@
-/* This Section Applies To Everything Unless otherwise set in Media Query */
-
 body{
     background-color: rgb(224, 224, 224);
-    margin-left: -0vw;
+}
+
+/* This is the title at the top and the icons for each lesson */
+
+#toptext{
+    background-color: rgb(219, 217, 217);
+    height: 50vh;
+    max-height: 440px;
+    border:solid;
+    border-width:2vw;
+    border-color:rgb(58, 55, 55);
+    padding-top: 10vh;
 }
 
 #topbuttons{
-    display: inline;
+    display: inline-flex;
+    width:70vw;
+    margin-left: 15vw;
 }
 
 #topbuttons img{
-    height: 8vh;
+    height: 10vh;
     width:8vw;
-    margin-left: 10vw;
+    margin-left: 5vw;
+}
+
+
+/* This is the button in each lesson that brings me back up to the top */
+
+#titlesect{
+    display:inline-flex;
 }
 
 .tbutton{
-    float:right;
-    margin-top:-10vh;
+    height:6vh;
+    padding-left: 8vw;
 }
 
-
-@media (max-width:2500px){
-
-    header img{
-        height: 70vh;
-        width:96vw;
-    }
-
-    #toptext{
-        background-color: rgb(219, 217, 217);
-        height: 70vh;
-        border:solid;
-        border-width:2vw;
-        border-color:rgb(58, 55, 55);
-        width:96vw;
-    }
-
-    h1{
+h1{
         color:rgb(10, 10, 10);
         text-align: center;
         margin-left: 3vw;
         margin-right: 3vw;
     }
 
-    #top{
-        font-size: 8vh;
+#moveup{
+    margin-top: -6vh;
+}
+
+
+#top{
+        font-size: 7rem;
+        font-family: 'Timmana', sans-serif;
     }
 
-    #top2{
-        margin-top:0vh;
-        font-size: 2.3vh;
+#top2{
+        font-size: 1.5rem;
     }
 
-    #l1{
+#l1{
         background-color: #76a1a5;
         color: white;
         text-align: center;
         border: solid;
         border-width: 2vw;
         border-color:rgb(124, 57, 57);
-        width:96vw;
+        font-size: 1rem;
+        
     }
     
-    .topl{
+.topl{
         margin-top:20vh;
-        margin-left: 9vw;
-        margin-right: 9vw;
-        font-size: 4vh;
-
+        margin-left: 16vw;
+        margin-right: 16vw;
     }
 
-    #midl img{
-        width:40%;
+.topl h2{
+    font-size: 3rem;
+    margin-left: 8vw;
+}
+
+.topl h3{
+    font-size: 2rem;
+}
+
+#offline{
+    width:10vw;
+}
+
+#gameimg{
+    width:12vw;
+}
+
+#mycarousel1{
+    width:80vw;
+    margin-left: -8vw;
     
+}
+
+.carousel-item{
+    height:80vh;
+    padding:5% 5%;
+    overflow-y: scroll;
+}
+
+.controls{
+    margin-top: 60vh;
+}
+
+.vocabcol1{
+    margin: 0% 0% 0% 20% ;
+}
+
+.vocabcol2{
+    margin: 0% 20% 0% 0% ;
+}
+
+#sectimg img{
+        width:20%;
     }
     
-    #midl2 img{
+#midl2 img{
         width:50%;
-    
     }
 
-    #midl3 img{
+#midl3 img{
         width:40%;
     }
 
-    #midl4 img{
+#midl4 img{
         width:40%;
         margin-left: 8vw;
     }
 
-    #midl5 img{
+#midl5 img{
         width:40%;
         margin-left: 0vw;
     }
 
-   
-    .bottoml{
-        margin-top:10vh ;
-        margin-left: 9vw;
-        margin-right: 9vw;
-        font-size: 4vh;
-    }
 
-    #l2{
+#l2{
         background-size: contain;
         background-color:rgb(15, 15, 37) ;
         color:white;
         text-align: center;
         border:solid;
         border-width: 2vw;
-        width:96vw;
         border-color:rgb(78, 18, 72);
     }
 
-    #l3{
+#l3{
         background-size: contain;
         background-color:rgb(196, 109, 116) ;
         color:white;
         text-align: center;
         border:solid;
         border-width: 2vw;
-        width:96vw;
         border-color:rgb(105, 183, 189);
     }
 
-    #l4{
+#l4{
         background-size: contain;
         background-color:rgb(147, 135, 69) ;
         color:white;
         text-align: center;
         border:solid;
         border-width: 2vw;
-        width:96vw;
         border-color:rgb(34, 52, 36);
     }
 
-    #l5{
+#l5{
         background-size: contain;
         background-color:rgb(82, 147, 69) ;
         color:white;
         text-align: center;
         border:solid;
         border-width: 2vw;
-        width:96vw;
         border-color:rgb(67, 52, 41);
     }
 
 
-    footer p{
+footer p{
         margin-top: 6.5vh;
     }
 
-    footer a{
+footer a{
         color:white;
     }
  
 
-    footer{
+footer{
         text-align: center;
         background-color: rgb(70, 68, 68);
         color:white;
-        height:40vh;
+        height:46vh;
         border:solid;
         border-width: 2vw;
-        width:96vw;
         border-color:rgb(39, 38, 38);
-        font-size: 3.5vh;
+        font-size: 1rem;
     }
 
+@media(max-width:1400px){
+    #moveup{
+        margin-top: 0vh;
+    }
 }
 
+@media(max-width:1200px){
 
-
-@media (max-width:825px){
-
-    header img{
-        height: 85vh;
-        width:96vw;
+    #topbuttons img{
+    height: 7vh;
+    width:8vw;
+    margin-left: 5vw;
     }
 
-    #toptext{
-        background-color: rgb(219, 217, 217);
-        height: 85vh;
-        border:solid;
-        border-width:2vw;
-        border-color:rgb(58, 55, 55);
-        width:96vw;
-    }
-    
-    h1{
-        color:rgb(10, 10, 10);
-        text-align: center;
-        margin-left: 3vw;
-        margin-right: 3vw;
-    }
-    
-    h2{
-        font-size: 12vh;
+    #moveup{
+        margin-top: 0vh;
     }
 
-    #top{
-        font-size: 8vh;
+    .topl h2{
+        font-size: 3rem;
+        margin-left: 4vw;
     }
 
-    #top2{
-        margin-top:0vh;
-        font-size: 2.3vh;
+    .tbutton{
+        height:4vh;
+        padding-left: 8vw;
     }
 
-    #l1{
-        background-color: #76a1a5;
-        color: white;
-        text-align: center;
-        border: solid;
-        border-width: 2vw;
-        border-color:rgb(124, 57, 57);
-        width:96vw;
-    }
-    
-    .topl{
-        margin-top:20vh;
-        margin-left: 9vw;
-        margin-right: 9vw;
-        font-size: 4vh;
-        
-
+    .carousel-item{
+        height:50vh;
+        padding:5% 5%;
     }
 
-    #midl img{
-        width:40%;
-    
-    }
-    
-    #midl2 img{
-        width:50%;
-    
-    }
-
-   
-    
-    .bottoml{
-        margin-top:10vh ;
-        margin-left: 9vw;
-        margin-right: 9vw;
-        font-size: 4vh;
-    }
-
-
-
-    #l2{
-        background-size: contain;
-        background-color:rgb(15, 15, 37) ;
-        color:white;
-        text-align: center;
-        border:solid;
-        border-width: 2vw;
-        width:96vw;
-        border-color:rgb(78, 18, 72);
-    }
-
-    #l3{
-        background-size: contain;
-        background-color:rgb(196, 109, 116) ;
-        color:white;
-        text-align: center;
-        border:solid;
-        border-width: 2vw;
-        width:96vw;
-        border-color:rgb(105, 183, 189);
-    }
-
-    #l4{
-        background-size: contain;
-        background-color:rgb(147, 135, 69)  ;
-        color:white;
-        text-align: center;
-        border:solid;
-        border-width: 2vw;
-        width:96vw;
-        border-color:rgb(34, 52, 36);
-    }
-
-    #l5{
-        background-size: contain;
-        background-color:rgb(82, 147, 69)  ;
-        color:white;
-        text-align: center;
-        border:solid;
-        border-width: 2vw;
-        width:96vw;
-        border-color:rgb(67, 52, 41);
-    }
-
-
-    footer p{
-        margin-top: 6.5vh;
-    }
-
- 
-
-    footer{
-        text-align: center;
-        background-color: rgb(70, 68, 68);
-        color:white;
-        height:40vh;
-        border:solid;
-        border-width: 2vw;
-        width:96vw;
-        border-color:rgb(39, 38, 38);
-        font-size: 3.5vh;
-    }
-
-}
-
-@media (max-width:450px){
-
-    header img{
-        height: 45vh;
-        width:96vw;
-    }
-
-    #toptext{
-        background-color: rgb(219, 217, 217);
-        height: 45vh;
-        border:solid;
-        border-width:2vw;
-        border-color:rgb(58, 55, 55);
-        width:96vw;
-    }
-    
-    h1{
-        color:rgb(10, 10, 10);
-        text-align: center;
-        margin-left: 3vw;
-        margin-right: 3vw;
-    }
-    
-    h2{
-        font-size:8vh;
-    }
-
-    #top{
-        font-size: 8vh;
-    }
-
-    #top2{
-        margin-top:0vh;
-        font-size: 2.3vh;
-    }
-
-    #l1{
-        background-color: #76a1a5;
-        color: white;
-        text-align: center;
-        border: solid;
-        border-width: 2vw;
-        border-color:rgb(124, 57, 57);
-        width:96vw;
-    }
-    
-    .topl{
-        margin-top:20vh;
-        margin-left: 9vw;
-        margin-right: 9vw;
-
-        
-
-    }
-
-   
-    
-    .bottoml{
-        margin-top:10vh ;
-        margin-left: 9vw;
-        margin-right: 9vw;
-    }
-
-
-
-    #l2{
-        background-size: contain;
-        background-color:rgb(15, 15, 37) ;
-        color:white;
-        text-align: center;
-        border:solid;
-        border-width: 2vw;
-        width:96vw;
-        border-color:rgb(78, 18, 72);
-    }
-
-    #l3{
-        background-size: contain;
-        background-color:rgb(196, 109, 116) ;
-        color:white;
-        text-align: center;
-        border:solid;
-        border-width: 2vw;
-        width:96vw;
-        border-color:rgb(105, 183, 189);
-    }
-
-    #l4{
-        background-size: contain;
-        background-color:rgb(147, 135, 69)  ;
-        color:white;
-        text-align: center;
-        border:solid;
-        border-width: 2vw;
-        width:96vw;
-        border-color:rgb(34, 52, 36);
-    }
-
-    #l5{
-        background-size: contain;
-        background-color:rgb(82, 147, 69) ;
-        color:white;
-        text-align: center;
-        border:solid;
-        border-width: 2vw;
-        width:96vw;
-        border-color:rgb(67, 52, 41);
-    }
-
-
-    footer p{
-        margin-top: 2.5vh;
-    }
-
- 
-
-    footer{
-        text-align: center;
-        background-color: rgb(70, 68, 68);
-        color:white;
-        height:20vh;
-        border:solid;
-        border-width: 2vw;
-        width:96vw;
-        border-color:rgb(39, 38, 38);
-        font-size: 2.6vh;
+    .controls{
+        margin-top: 40vh;
     }
 
 }
 
 @media only screen 
-and (min-device-width : 750px) 
-and (min-device-height : 1000px)
-and (orientation: portrait){
+and (max-device-width : 1200px) 
+and (orientation : landscape){
 
-      header img{
-        height: 55vh;
-        width:96vw;
+    .carousel-item{
+        height:80vh;
+        padding:5% 5%;
     }
 
-    #toptext{
-        background-color: rgb(219, 217, 217);
-        height: 55vh;
-        border:solid;
-        border-width:2vw;
-        border-color:rgb(58, 55, 55);
-        width:96vw;
-    }
-
-    h2{
-       font-size:9vh;
-      
+    .controls{
+        margin-top: 65vh;
     }
 
 }
 
+@media(max-width:990px){
+
+        #toptext{
+            height:80vh;
+        }
+
+        #topbuttons img{
+            height: 12vh;
+        }
+
+        .carousel-item{
+        height:100vh;
+        padding:5% 5%;
+        }
+
+        .thirdact{
+            margin-top: 8vh;
+        }
+
+        #offline{
+            width:4vw;
+        }
+
+        #gameimg{
+            width:6vw;
+        }
+
+        #l1{
+            font-size:.4rem;
+          }
+
+        .topl h2{
+            font-size: 2rem;
+        }
+        
+        .topl h3{
+            font-size: .8rem;
+        }
+
+        .topl h4{
+            font-size: .6rem;
+        }
+
+        .topl h5{
+            font-size: .6rem;
+        }
+
+        #moveup{
+            margin-top:-4vh;
+        }
+
+        #up{
+            margin-top:-7vh; 
+        }
+        
+        #smallertxt{
+            font-size: 2.2vh;
+        }
+    }
+
+    @media only screen 
+    and (max-device-width : 800px) 
+    and (orientation : portrait){
+
+        .carousel-item{
+            height:60vh;
+            padding:5% 5%;
+        }
+    
+        .controls{
+            margin-top: 45vh;
+        }
+
+        #up {
+            margin-top: -2vh;
+        }
+
+        .topl h2{
+            font-size:2.2rem;
+        }
+
+        .topl h3{
+            font-size:1.8rem;
+        }
+
+        .topl h4 {
+            font-size: 1.3rem;
+        }
+
+        .topl h5 {
+            font-size: .9rem;
+        }
+
+        #l1{
+            font-size:1rem;
+          }
+
+        #moveup {
+            margin-top: -2vh;
+        }
+
+        #smallertxt {
+            font-size: 1.2vh;
+        }
+
+        .thirdact {
+            margin-top: 2vh;
+            padding-right: 20vw !important;
+            padding-left: 20vw !important;
+        }
+        
+
+    }
+
+    @media(max-width:800px){
+        #topbuttons img{
+            height: 6vh;
+            width:8vw;
+            margin-left: 5vw;
+        }
+    }
+
+    @media(max-width:767px){
+        
+        #toptext{
+            height:70vh;
+        }
+
+        #topbuttons img{
+            height: 9vh;
+            width:8vw;
+            margin-left: 5vw;
+        }
+
+
+        #top{
+            font-size: 5rem;
+        }
+
+        #top2{
+            font-size: 1.2rem;
+        }
+
+        .topl h2{
+            font-size: 2rem;
+            margin-left: 4vw;
+        }
+
+        #moveup{
+            margin-top:0vh;
+        }
+
+        .secondact{
+            margin-top: 8vh; 
+        }
+
+        .moveupabit{
+            margin-top: -4vh; 
+        }
+
+        #smallertxt{
+            font-size: 1.6vh;
+        }
+
+    }
+
+    @media(max-width:570px){
+
+        #toptext{
+            height:70vh;
+        }
+
+        #top{
+            font-size: 4rem;
+        }
+
+        .topl h2{
+            font-size: 1.5rem;
+            margin-left: 2vw;
+        }
+
+        #top2{
+            font-size: 1rem;
+        }
+
+         .forsmallerscreens{
+             font-size: 1.6vh;
+         }
+    }
+
+    @media only screen 
+    and (max-device-width : 450px) 
+    and (orientation : portrait){
+
+
+        #l1{
+            font-size:.8rem;
+          }
+
+
+        .topl{
+            margin-top: 10vh;
+        }
+
+        .topl h2{
+            font-size: 1.8rem;
+            margin-left: 2vw;
+        }
+
+        .tbutton{
+            height:3vh;
+            padding-left: 8vw;
+        }
+
+        #sectimg img{
+            width:18vw;
+        }
+
+        .topl h3{
+            font-size: 1.3rem;
+        }
+
+        .topl h4{
+            font-size: .8rem;
+        }
+
+        .topl h5{
+            margin-top: -2vh;
+            font-size: .6rem;
+        }
+
+        #smallertxt{
+            font-size:.6rem;
+        }
+
+        .moveupabit{
+            margin-top:-8vh;
+        }
+
+        .carousel-item{
+            height:80vh;
+        }
+
+        .controls{
+            margin-top: 70vh;
+        }
+
+        .thirdact {
+            margin-top: 8vh;
+            padding-right: 4vw !important;
+            padding-left: 4vw !important;
+        }
+
+        #offline{
+            width: 8vw;
+            padding-bottom: 2vh;
+        }
+
+        #gameimg{
+            width: 16vw;
+            padding-bottom: 2vh;
+        }
+
+        
+
+    }
+
+    @media(max-width:450px){
+
+        #toptext{
+            height:36vh;
+        }
+
+
+        #topbuttons img{
+            height: 6vh;
+            width:8vw;
+            margin-left: 5vw;
+        }
+    }
+
+    @media(max-width:400px){
+        
+        
+        #toptext{
+            height:36vh;
+        }
+
+
+        #topbuttons img{
+            height: 5vh;
+            width:8vw;
+            margin-left: 5vw;
+        }
+    }
+
+    @media only screen 
+    and (max-device-width : 380px) 
+    and (orientation : portrait){
+
+        .carousel-item{
+            height: 90vh;
+        }
+
+        .controls{
+            margin-top: 80vh;
+        }
+    }
+
+    @media(max-width:350px){
+        
+        
+        #toptext{
+            height:42vh;
+        }
+
+
+        #topbuttons img{
+            height: 5vh;
+            width:8vw;
+            margin-left: 5vw;
+        }
+
+        #top{
+            font-size: 3rem;
+        }
+
+        .topl h2{
+            font-size: 1.2rem;
+            margin-left: 2vw;
+        }
+    }
 
 
 
