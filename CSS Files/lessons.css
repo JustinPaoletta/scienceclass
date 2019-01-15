@@ -142,7 +142,7 @@ h1{
 
 #l2{
         background-size: contain;
-        background-color:rgb(15, 15, 37) ;
+        background-color:rgb(15, 15, 37);
         color:white;
         text-align: center;
         border:solid;
@@ -152,7 +152,7 @@ h1{
 
 #l3{
         background-size: contain;
-        background-color:rgb(196, 109, 116) ;
+        background-color:rgb(196, 109, 116);
         color:white;
         text-align: center;
         border:solid;
@@ -162,7 +162,7 @@ h1{
 
 #l4{
         background-size: contain;
-        background-color:rgb(147, 135, 69) ;
+        background-color:rgb(147, 135, 69);
         color:white;
         text-align: center;
         border:solid;
@@ -172,7 +172,7 @@ h1{
 
 #l5{
         background-size: contain;
-        background-color:rgb(82, 147, 69) ;
+        background-color:rgb(82, 147, 69);
         color:white;
         text-align: center;
         border:solid;
@@ -182,7 +182,7 @@ h1{
 
 
 footer p{
-        margin-top: 6.5vh;
+        margin-top: 10vh;
     }
 
 footer a{
@@ -199,11 +199,16 @@ footer{
         border-width: 2vw;
         border-color:rgb(39, 38, 38);
         font-size: 1rem;
+        line-height: 2.6rem;
     }
 
 @media(max-width:1400px){
     #moveup{
         margin-top: 0vh;
+    }
+
+    footer{
+        height:32vh;
     }
 }
 
@@ -313,6 +318,10 @@ and (orientation : landscape){
         #smallertxt{
             font-size: 2.2vh;
         }
+
+        footer{
+            height:60vh;
+        }
     }
 
     @media only screen 
@@ -364,6 +373,14 @@ and (orientation : landscape){
             margin-top: 2vh;
             padding-right: 20vw !important;
             padding-left: 20vw !important;
+        }
+
+        footer p{
+            margin-top: 6vh;
+        }
+
+        footer{
+            height:30vh;
         }
         
 
@@ -516,6 +533,14 @@ and (orientation : landscape){
         #gameimg{
             width: 16vw;
             padding-bottom: 2vh;
+        }
+
+        footer p{
+            margin-top: 5vh;
+        }
+
+        footer{
+            height:30vh;
         }
 
         
