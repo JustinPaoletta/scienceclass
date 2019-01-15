@@ -112,11 +112,43 @@ footer{
 
 .words{
         font-size:2vh;
+        width:46vw;
+        height:16vh;
+        margin-left:2.0vw;
+        margin-top:3vh;
+}
+
+#row1 p{
+        margin-top:4vh;
+}
+
+#row2 p{
+        margin-top:4vh;
 }
 
 .changetxtsize{
         font-size:1.6vh;
 } 
+
+.break{
+        margin-top:22vh;
+}
+
+.break1{
+        float:left;
+        position:absolute;
+}
+
+.break2{
+        float:left;
+        margin-left:-46.5vw;
+}  
+
+#magnetcards{
+        height:86vh;
+}
+
+
 
 }
 
