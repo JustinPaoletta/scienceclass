@@ -1,89 +1,235 @@
 /* This Section Applies To Everything Unless otherwise set in Media Query */
 
+/* Heading */
 
 #tline{
-  display:inline-flex;
-  height:40vh;
+  height:38vh;
   width:100vw;
+  background-color:rgb(120, 118, 118);
+  border-bottom:solid whitesmoke;
+  color:white;
+  
 }
 
-h3{
+h1{
     text-align: center;
-    background-color:rgb(120, 118, 118);
-    border:solid;
-    border-radius: 12px;
-    width:100vw;
-    padding-top:.8em;
+    padding-top:1.3em;
     padding-bottom:.8em;
-    margin-left:0vw;
-    color:white;
-    font-size: 5vh;
+    font-size: 4rem !important;
 }
 
-h3 img{
-    height:1.1em;
-}
-
-
-.words {
-    display: inline-grid;
-    font-family: monospace;
+h4{
     text-align: center;
-    height:32vh;
-    font-size:2rem;
-    background-color: rgb(65, 89, 91);
-    margin-top: 3vh;
-    border: solid;
-    border-color: black;
-    border-width: .25vw;
-    transition: all .0s;
-    margin-left: .8vw;
-    border-radius:20px;
-    width:23.5vw;
-
 }
 
-#row1{
-    display:inline-flex;
-    margin-top: 3vh;
+h4 img{
+    height:6vh;
+    margin-left: -6vw;
 }
 
-#row1 p{
-    margin-top: 8vh;
-}
-
-#row2{
-    display:inline-flex;
-}
-
-#row2 p{
-    margin-top: 8vh;
-}
-.words:hover {
-    background-color:rgb(65, 89, 91);
-    background-color: rgb(69, 87, 106);
-}
-
-.words p {
-    color: whitesmoke;
-    text-align: center;
+h4 span{
+    font-size: 3vh;
     margin-left: 2vw;
-    margin-right: 2vw;
+    color: rgb(225, 225, 225);
 }
 
-.changetxtsize{
-    font-size: 1.3vh;
+/* changes text on front of cards */
+
+.magtext{
+    color:white;
+    margin-top: 6vh;
+}
+
+.fas{
+    color:rgb(227, 227, 206);
+    font-size: 7vh;
+    transform: rotate(40deg);
+}
+
+/* changes text size on back of cards */
+
+.magtext2{
+    font-size: 1.5rem;
+    color: black;
+    margin-top: 6vh;
+    padding:0 1vw;
 
 }
 
-#magnetcards {
+/* backgorund that holds cards */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
     background-image: url(https://cdn3.vectorstock.com/i/thumb-large/53/42/magnet-icon-sign-symbol-in-modern-flat-style-vector-22275342.jpg);
     background-size: contain;
     height: 80vh;
     background-position: center;
     background-repeat:repeat;
     width:100vw;
+  }
+  .grid-item {
+
+  }
+
+/* Flip Animation */
+
+.flip {
+    backface-visibility: hidden;
+    transition: transform 3s;
+    font-family: monospace;
+    text-align: center;
+    height:32vh;
+    font-size:2rem;
+    background-color: rgb(70, 88, 104);
+    margin-top: 3vh;
+    border: solid black .5vw;
+    border-radius:20px;
+    width:22vw;
+    position: absolute;
+    margin-left: 1.5vw;
+   
 }
+
+
+
+/* First Row of 4 */
+
+#side-1 {
+    transform: rotateY( 0deg );
+}
+
+#side-2 {
+    transform: rotateY( 180deg );   
+}
+
+#side-3 {
+    transform: rotateY( 0deg );
+}
+
+#side-4 {
+    transform: rotateY( 180deg );   
+}
+
+#side-5 {
+    transform: rotateY( 0deg );
+}
+
+#side-6 {
+    transform: rotateY( 180deg );   
+}
+
+#side-7 {
+    transform: rotateY( 0deg );
+}
+
+#side-8 {
+    transform: rotateY( 180deg );   
+}
+
+.flip-side-1 {    
+    transform: rotateY( 0deg ) !important;
+}
+
+.flip-side-2 {
+    transform: rotateY( 180deg ) !important;
+}
+
+.flip-side-3 {    
+    transform: rotateY( 0deg ) !important;
+}
+
+.flip-side-4 {
+    transform: rotateY( 180deg ) !important;
+}
+
+.flip-side-5 {    
+    transform: rotateY( 0deg ) !important;
+}
+
+.flip-side-6 {
+    transform: rotateY( 180deg ) !important;
+}
+
+.flip-side-7 {    
+    transform: rotateY( 0deg ) !important;
+}
+
+.flip-side-8 {
+    transform: rotateY( 180deg ) !important;
+}
+
+
+
+/* Second row of 4 */
+
+
+
+#side-9 {
+    transform: rotateY( 0deg );
+}
+
+#side-10 {
+    transform: rotateY( 180deg );   
+}
+
+#side-11 {
+    transform: rotateY( 0deg );
+}
+
+#side-12 {
+    transform: rotateY( 180deg );   
+}
+
+#side-13 {
+    transform: rotateY( 0deg );
+}
+
+#side-14 {
+    transform: rotateY( 180deg );   
+}
+
+#side-15 {
+    transform: rotateY( 0deg );
+}
+
+#side-16 {
+    transform: rotateY( 180deg );   
+}
+
+.flip-side-9 {    
+    transform: rotateY( 0deg ) !important;
+}
+
+.flip-side-10 {
+    transform: rotateY( 180deg ) !important;
+}
+
+.flip-side-11 {    
+    transform: rotateY( 0deg ) !important;
+}
+
+.flip-side-12 {
+    transform: rotateY( 180deg ) !important;
+}
+
+.flip-side-13 {    
+    transform: rotateY( 0deg ) !important;
+}
+
+.flip-side-14 {
+    transform: rotateY( 180deg ) !important;
+}
+
+.flip-side-15 {    
+    transform: rotateY( 0deg ) !important;
+}
+
+.flip-side-16 {
+    transform: rotateY( 180deg ) !important;
+}
+
+/* footer */
 
 #foot{
     margin-top: 8vh;
@@ -102,319 +248,223 @@ footer{
         background-color: rgb(120, 118, 118);
         color:rgb(255, 255, 255);
         height:30vh;
-        border: rgb(206, 206, 206) solid .5vw;
-        width:99vw;
-        padding:0em;
+        border-top: rgb(206, 206, 206) solid .5vw;
+        width:100vw;
 
 }   
 
-@media(max-width:450px){
+@media(max-width:1300px){
 
-.words{
-        font-size:2vh;
-        width:46vw;
-        height:16vh;
-        margin-left:2.0vw;
-        margin-top:3vh;
-}
-
-#row1 p{
-        margin-top:4vh;
-}
-
-#row2 p{
-        margin-top:4vh;
-}
-
-.changetxtsize{
-        font-size:1.6vh;
-} 
-
-.break{
-        margin-top:22vh;
-}
-
-.break1{
-        float:left;
-        position:absolute;
-}
-
-.break2{
-        float:left;
-        margin-left:-46.5vw;
-}  
-
-#magnetcards{
-        height:86vh;
-}
-
-
-
-}
-
-/* @media(max-width:2100px){
-
-#tline p{
-       font-size:5vh;
-}
-
-
-h1{
-        margin-top: -5vh;
-        font-size: 4.4em;
-        margin-left: 20vw;
-        margin-right: 20vw;
-        line-height: 12vh;
+    .magtext2{
+        font-size: 1rem;
     }
 
-    h2{
-        margin-left:10vw;
-        margin-right: 10vw;
-        font-family: monospace; 
+    h4{
+        margin-top: -4vh !important;
+    }
+
+    .flip{
+        line-height: 4vh;
+    }
+
+}
+
+@media only screen 
+and (max-device-width : 1200px) 
+and (orientation : portrait){
+
+    #tline{
+        height:30vh;
+    }
+
+    h4{
+        margin-top: 1vh !important;
+    }
+
+    .flip{
+        height:24vh;
+        line-height: 2vh;
+    }
+
+    .magtext2{
+        font-size: 1.2rem;
+    }
+
+    .grid-container{
+        height:60vh;
+    }
+
+    .fas{
+        transform: rotate(0deg);
     }
     
 
-h3{
-    text-align: center;
-    background-color:rgb(156, 151, 151);
-    border:solid;
-    border-radius: 12px;
-    width:98.5vw;
-    padding-top:.8em;
-    padding-bottom:.8em;
-    margin-left:0vw;
 }
 
-.words {
-        display: inline-flex;
-        width:22vw;
-        font-family: monospace;
-        font-size: 2.2rem;
-        height:26vh;
-        background-color: rgb(69, 69, 90);
-        margin-top: 3vh;
-        border: solid;
-        border-color: black;
-        border-width: .25vw;
-        transition: all .4s;
-        margin-left: 1.3vw;
-        border-radius:20px ;
-        
-    
-    }
-    
-    .words:hover {
-        background-color:rgb(53, 53, 59) ;
-        background-color: rgb(110, 56, 54);
-    }
-    
-    .words p {
-        color: whitesmoke;
-    
+
+
+@media(max-width:900px){
+
+    #tline{
+        height:44vh;
     }
 
-    .changetxtsize{
-        font-size: 1.3rem;
-    }
-    
-    #magnetcards {
-        background-image: url(http://www.kaz.guru/wp-content/uploads/2016/05/magnet.png);
-        background-size: contain;
-        height: 64vh;
-        background-position: center;
-        background-repeat:no-repeat;
-        background-color: rgb(224, 222, 217);
-        border:solid;
-        border-width:.5vw;
-        border-color:rgb(102, 82, 45);
-        border-radius:1vw;
-        text-align: center;
-
+    h1{
+        font-size: 2rem !important;
     }
 
-    footer a{
-        color:white;
-    }
-        
-    footer p{
-            font-size: 3.4vh;
-            margin-top: 5vh;
-    }
-    
-    footer{
-            text-align: center;
-            background-color: rgb(37, 37, 37);
-            color:rgb(255, 255, 255);
-            height:30vh;
-            border: rgb(206, 206, 206) solid .5vw;
-            width:98vw;
-            padding:0em;
-    
-    }    
-} */
-
-/* @media (max-width:1300px){
-
-    .words {
-        width:21.2vw;  
+    h4{
+        margin-top: -8vh !important;
     }
 
-    h3{
-        width:98vw;
+    .magtext{
+        font-size: .9rem;
+    }
+
+    .magtext2{
+        font-size: .8rem;
+    }
+
+    .flip{
+        height:40vh;
+        line-height: 4vh;
+    }
+
+    .grid-container{
+        height:90vh;
+    }
+
+
+}
+
+@media only screen 
+and (max-device-width : 800px) 
+and (orientation : portrait){
+
+    #tline{
+        height:30vh;
+    }
+
+    h1{
+        font-size: 3rem !important;
+    }
+
+    h4{
+        margin-top: 0vh !important;
+    }
+
+    .grid-container{
+        height:70vh;
+    }
+
+    .flip{
+        height:28vh;
+    }
+
+    .fas{
+        transform: rotate(0deg);
     }
 
 }
 
-@media (max-width:825px){
+@media(max-width:700px){
 
-h1{
-        margin-top: -12vh;
+
+    .magtext{
+        font-size: 1.2rem;
     }
 
-h2 {
-        margin-left: 23vw;
-        margin-right: 23vw;
-        margin-top: -3vh;
-    }
-
-#magnetcards{
-        height:100vh;
-    }
-
-.words{
-        margin-left: .7vw;
-        height:42vh;
-        font-size: 3vh;
-    }
-
-
-
-    footer a{
-        color:white;
-    }
-    
-    footer p{
-            margin-top: 6vh;
-    }
-    
-    footer{
-            text-align: center;
-            background-color: rgb(32, 32, 32);
-            color:rgb(255, 255, 255);
-            height:36vh;
-            border: rgb(206, 206, 206) solid .5vw;
-            width:97vw;
-            padding:0em;
+    .magtext2{
+        font-size: .65rem;
     }
 
 }
 
-@media (max-width:450px){
+@media only screen 
+and (max-device-width : 600px) 
+and (orientation : portrait){
 
-h1{
-        margin-top: 2vh;
-        font-size: 2.5em;
-        line-height: 7vh;
+    .magtext{
+        font-size: .8rem;
     }
 
-    h2{
-        padding-top: 5vh;
-        font-size: 2vh;
-        line-height: 3vh;
-        margin-left: 15vw;
-        margin-right: 15vw;
+    .magtext2{
+        font-size: .65rem;
     }
 
-  h3{
-    text-align: center;
-    background-color:rgb(156, 151, 151);
-    border:solid;
-    border-radius: 12px;
-    width:97vw;
-    padding-top:.8em;
-    padding-bottom:.8em;
-    margin-left:-1vw;
-}
-
-#lesson1{
-        margin-top: 0vh;
-    }
-
-    #magnetcards{
-        height:100vh;
-        text-align: center;
-        width:98vw;
-        margin-left:-1vw;
-    }
-
-    .words {
+    .flip{
         width:44vw;
-        height:20vh;
-        margin-left: 1.1vw;
-        font-size: 1.7vh;
+        display: grid;
     }
 
-    .words p{
-        padding:1.8em;
-        
+    .grid-container{
+        grid-template-columns: 2fr 2fr ;
     }
 
-    footer p{
-        margin-top: 4vh;
-        font-size: 2vh;
+    .fas{
+        transform: rotate(0deg);
     }
-    
-    footer{
-        text-align: center;
-        background-color: rgb(32, 32, 32);
-        color:rgb(255, 255, 255);
-        height:26vh;
-        border: rgb(206, 206, 206) solid .5vw;
-        width:96vw;
-        padding:0em;
-        margin-left: 0vw;
-    
+}
+
+@media(max-width:600px){
+
+    #tline{
+        height:48vh;
+    }
+
+    .magtext2{
+        font-size: .6rem;
+    }
+
+    .flip{
+        width:30vw;
+        line-height: 6vh;
+    }
+
+    .grid-container{
+        grid-template-columns: 2fr 2fr 2fr;
+        height: 134vh;
+    }
+
+}
+
+@media only screen 
+and (max-device-width : 500px) 
+and (orientation : portrait){
+
+    #tline{
+        height:36vh;
+    }
+
+    h1{
+        font-size: 2.6rem !important;
+    }
+
+    .grid-container{
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .flip{
+        width:47vw;
+        line-height: 2vh;
+    }
+
+    .fas{
+        margin-top: -8vh !important;
+        transform: rotate(0deg);
     }
 }
 
 @media only screen 
-and (min-device-width : 750px) 
-and (min-device-height : 1000px)
-and (orientation: portrait)
-and (-webkit-min-device-pixel-ratio: 1){
+and (max-device-width : 325px) 
+and (orientation : portrait){
 
-    #tline p{
-        font-size: 4vh;
+    h1{
+        font-size: 2rem !important;
     }
 
-    .words {
-        display: inline-flex;
-        width:20.7vw;
-        font-family: monospace;
-        font-size: 1.2em;
-        height:26vh;
-        background-color: rgb(69, 69, 90);
-        margin-top: 3vh;
-        border: solid;
-        border-color: black;
-        border-width: .25em;
-        transition: all .4s;
-        margin-left: 1.3vw;
-        border-radius:20px ;
-    }
-
-    #magnetcards{
-        height:64vh;
-    }
-
-    footer p{
-        margin-top: 4vh;
-        font-size: 2vh;
-    }
-
-    footer{
-        height:24vh;
+    .fas{
+        transform: rotate(0deg);
     }
 
 }
- */
