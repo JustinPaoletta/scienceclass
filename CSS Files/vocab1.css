@@ -35,7 +35,7 @@ h4 span{
 
 
     /* flip the pane when hovered */
-        .flipped {
+    .flipped {
     /*transform*/
     -webkit-transform:rotateY(180deg);
        -moz-transform:rotateY(180deg);
@@ -84,11 +84,8 @@ h4 span{
         -ms-transform:rotateY(180deg);
          -o-transform:rotateY(180deg);
             transform:rotateY(180deg);
-        margin-top: -21vh;
-        background-color: white;
-        height:26vh;
-        display:block;
-
+    margin-top: -20vh;
+    background-color: white;
     }
 
     
