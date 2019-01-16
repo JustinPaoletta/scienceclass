@@ -84,8 +84,9 @@ h4 span{
         -ms-transform:rotateY(180deg);
          -o-transform:rotateY(180deg);
             transform:rotateY(180deg);
-    margin-top: -20vh;
     background-color: white;
+    margin-top:-20vh;
+
     }
 
     
@@ -159,6 +160,8 @@ h4 span{
     width:22vw; 
     margin-left: 1.5vw;
 }
+
+
 
 
 

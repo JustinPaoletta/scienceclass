@@ -4,7 +4,7 @@
 // Flip Cards
 
 $("#card").click(function(){
-    $("#card").flip(true);
+    $("#card").flip('toggle');
 });
 
 $(".flipper").click(function(){
