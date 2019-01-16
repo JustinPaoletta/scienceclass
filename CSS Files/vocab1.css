@@ -95,6 +95,7 @@ h4 span{
         margin-top: -21vh;
         background-color: white;
         height:26vh;
+        z-index:2;
     }
 
     
