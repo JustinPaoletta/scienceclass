@@ -82,7 +82,7 @@ h4 span{
     }
     /* front pane, placed above back */
     .front{
-      z-index: 1;
+   
     }
     /* back, initially hidden pane */
     .back{
@@ -95,7 +95,6 @@ h4 span{
         margin-top: -21vh;
         background-color: white;
         height:26vh;
-        z-index: 2;
 
     }
 
