@@ -3,6 +3,9 @@
 
 // Flip Cards
 
+$("#card").click(function(){
+    $("#card").flip();
+});
 
 $(".flipper").click(function(){
     $(".flipper").toggleClass("flipped");
@@ -31,20 +34,20 @@ $(".flipper").click(function(){
 
 // Card 2
 
-document.getElementById( 'side-3' ).addEventListener( 'click', function() {
+// document.getElementById( 'side-3' ).addEventListener( 'click', function() {
 
-    document.getElementById( 'side-4' ).className = 'flip flip-side-1';
-    document.getElementById( 'side-3' ).className = 'flip flip-side-2';
-    document.getElementById("side-4").style.backgroundColor = "white";
+//     document.getElementById( 'side-4' ).className = 'flip flip-side-1';
+//     document.getElementById( 'side-3' ).className = 'flip flip-side-2';
+//     document.getElementById("side-4").style.backgroundColor = "white";
 
-});
+// });
 
-document.getElementById( 'side-4' ).addEventListener( 'click', function() {
+// document.getElementById( 'side-4' ).addEventListener( 'click', function() {
 
-    document.getElementById( 'side-3' ).className = 'flip flip-side-3';
-    document.getElementById( 'side-4' ).className = 'flip flip-side-4';
+//     document.getElementById( 'side-3' ).className = 'flip flip-side-3';
+//     document.getElementById( 'side-4' ).className = 'flip flip-side-4';
 
-});
+// });
 
 // Card 3
 
