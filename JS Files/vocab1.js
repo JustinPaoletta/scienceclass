@@ -7,6 +7,7 @@
 
 $('#side-1').click(function() {
 
+    $('#side-1').css('cursor','pointer');
     document.getElementById( 'side-2' ).className = 'flip flip-side-1';
     document.getElementById( 'side-1' ).className = 'flip flip-side-2';
     document.getElementById("side-2").style.backgroundColor = "white";
