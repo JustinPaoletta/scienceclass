@@ -4,6 +4,9 @@
 // Flip Cards
 
 
+$(".flipper").click(function(){
+    $(".flipper").toggleClass("flipped");
+  });
 
 // Card1
 
