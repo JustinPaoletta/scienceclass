@@ -7,8 +7,9 @@
 
 // Card1
 
-  document.getElementById( 'side-1' ).addEventListener('mouseover', function() {
+  document.getElementById( 'side-1' ).addEventListener('click', function() {
 
+    document.getElementById( 'side-1' ).style.backgroundColor="black";
     document.getElementById( 'side-2' ).className = 'flip flip-side-1';
     document.getElementById( 'side-1' ).className = 'flip flip-side-2';
     document.getElementById("side-2").style.backgroundColor = "white";
@@ -16,7 +17,7 @@
 
 });
 
-document.getElementById( 'side-2' ).addEventListener( 'mouseover', function() {
+document.getElementById( 'side-2' ).addEventListener( 'click', function() {
 
 
     document.getElementById( 'side-1' ).className = 'flip flip-side-1';
