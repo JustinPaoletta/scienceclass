@@ -3,13 +3,15 @@
 
 // Flip Cards
 
-$("#card").click(function(){
-    $("#card").flip('toggle');
-});
+$("#card").flip();
 
-$(".flipper").click(function(){
-    $(".flipper").toggleClass("flipped");
-  });
+// $("#card").click(function(){
+//     $("#card").flip('toggle');
+// });
+
+// $(".flipper").click(function(){
+//     $(".flipper").toggleClass("flipped");
+//   });
 
 // Card1
 

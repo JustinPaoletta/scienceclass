@@ -33,6 +33,7 @@ h4 span{
     color: rgb(225, 225, 225);
 }
 
+/* card flipping */
 
     /* flip the pane when hovered */
     .flipped {
@@ -43,16 +44,9 @@ h4 span{
          -o-transform:rotateY(180deg);
             transform:rotateY(180deg);
     }
-    .flip-container, .front, .back{
-
-    }
+   
     /* flip speed goes here */
     .flipper {
-    /*transition*/
-    -webkit-transition:2.6s;
-       -moz-transition:2.6s;
-         -o-transition:2.6s;
-            transition:2.6s;
 
     /*transform-style*/
     -webkit-transform-style:preserve-3d;
@@ -85,8 +79,6 @@ h4 span{
          -o-transform:rotateY(180deg);
             transform:rotateY(180deg);
     background-color: white;
-    margin-top:-20vh;
-
     }
 
     
@@ -127,7 +119,7 @@ h4 span{
     width:100vw;
   }
   .grid-item {
-    height:40vh;
+    height:32vh;
   }
 
 /* Flip Animation */
