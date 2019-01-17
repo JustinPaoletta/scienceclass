@@ -34,51 +34,26 @@ h4 span{
 }
 
 /* card flipping */
-
-    /* flip the pane when hovered */
-    .flipped {
-    /*transform*/
-    -webkit-transform:rotateY(180deg);
-       -moz-transform:rotateY(180deg);
-        -ms-transform:rotateY(180deg);
-         -o-transform:rotateY(180deg);
-            transform:rotateY(180deg);
-    }
    
-    /* flip speed goes here */
-    .flipper {
-
-    /*transform-style*/
-    -webkit-transform-style:preserve-3d;
-       -moz-transform-style:preserve-3d;
-        -ms-transform-style:preserve-3d;
-         -o-transform-style:preserve-3d;
-            transform-style:preserve-3d;
-    
-    }
-    /* hide back of pane during swap */
     .front, .back{
-    /*backface-visibility*/
-    -webkit-backface-visibility:hidden;
-       -moz-backface-visibility:hidden;
-        -ms-backface-visibility:hidden;
-         -o-backface-visibility:hidden;
-            backface-visibility:hidden;
-            text-align: center;
+        text-align: center;
+        font-family: monospace;
+        height:32vh !important;
+        font-size:2rem;
+        margin-top: 3vh;
+        border: solid black .5vw;
+        border-radius:20px;
+        width:22vw !important; 
+        margin-left: 2.5vw;
+        position: absolute !important;
     }
-    /* front pane, placed above back */
+ 
     .front{
-   
+        background-color: rgb(70, 88, 104);
     }
-    /* back, initially hidden pane */
     .back{
-    /*transform*/
-    -webkit-transform:rotateY(180deg);
-       -moz-transform:rotateY(180deg);
-        -ms-transform:rotateY(180deg);
-         -o-transform:rotateY(180deg);
-            transform:rotateY(180deg);
-    background-color: white;
+        background-color: white;
+
     }
 
     
@@ -106,7 +81,7 @@ h4 span{
 
 }
 
-/* backgorund that holds cards */
+/* background that holds cards */
 
 .grid-container {
     display: grid;
@@ -121,177 +96,6 @@ h4 span{
   .grid-item {
     height:32vh;
   }
-
-/* Flip Animation */
-
-.flip {
-    backface-visibility: hidden;
-    transition: transform 3s;
-    font-family: monospace;
-    text-align: center;
-    height:32vh;
-    font-size:2rem;
-    background-color: rgb(70, 88, 104);
-    margin-top: 3vh;
-    border: solid black .5vw;
-    border-radius:20px;
-    width:22vw;
-    position: absolute;
-    margin-left: 1.5vw;
-   
-}
-
-.looks{
-    font-family: monospace;
-    height:32vh;
-    font-size:2rem;
-    background-color: rgb(70, 88, 104);
-    margin-top: 3vh;
-    border: solid black .5vw;
-    border-radius:20px;
-    width:22vw; 
-    margin-left: 1.5vw;
-}
-
-
-
-
-
-/* First Row of 4 */
-
-#side-1 {
-    transform: rotateY( 0deg );
-}
-
-#side-2 {
-    transform: rotateY( 180deg );   
-}
-
-#side-3 {
-    transform: rotateY( 0deg );
-}
-
-#side-4 {
-    transform: rotateY( 180deg );   
-}
-
-#side-5 {
-    transform: rotateY( 0deg );
-}
-
-#side-6 {
-    transform: rotateY( 180deg );   
-}
-
-#side-7 {
-    transform: rotateY( 0deg );
-}
-
-#side-8 {
-    transform: rotateY( 180deg );   
-}
-
-.flip-side-1 {    
-    transform: rotateY( 0deg ) !important;
-}
-
-.flip-side-2 {
-    transform: rotateY( 180deg ) !important;
-}
-
-.flip-side-3 {    
-    transform: rotateY( 0deg ) !important;
-}
-
-.flip-side-4 {
-    transform: rotateY( 180deg ) !important;
-}
-
-.flip-side-5 {    
-    transform: rotateY( 0deg ) !important;
-}
-
-.flip-side-6 {
-    transform: rotateY( 180deg ) !important;
-}
-
-.flip-side-7 {    
-    transform: rotateY( 0deg ) !important;
-}
-
-.flip-side-8 {
-    transform: rotateY( 180deg ) !important;
-}
-
-
-
-/* Second row of 4 */
-
-
-
-#side-9 {
-    transform: rotateY( 0deg );
-}
-
-#side-10 {
-    transform: rotateY( 180deg );   
-}
-
-#side-11 {
-    transform: rotateY( 0deg );
-}
-
-#side-12 {
-    transform: rotateY( 180deg );   
-}
-
-#side-13 {
-    transform: rotateY( 0deg );
-}
-
-#side-14 {
-    transform: rotateY( 180deg );   
-}
-
-#side-15 {
-    transform: rotateY( 0deg );
-}
-
-#side-16 {
-    transform: rotateY( 180deg );   
-}
-
-.flip-side-9 {    
-    transform: rotateY( 0deg ) !important;
-}
-
-.flip-side-10 {
-    transform: rotateY( 180deg ) !important;
-}
-
-.flip-side-11 {    
-    transform: rotateY( 0deg ) !important;
-}
-
-.flip-side-12 {
-    transform: rotateY( 180deg ) !important;
-}
-
-.flip-side-13 {    
-    transform: rotateY( 0deg ) !important;
-}
-
-.flip-side-14 {
-    transform: rotateY( 180deg ) !important;
-}
-
-.flip-side-15 {    
-    transform: rotateY( 0deg ) !important;
-}
-
-.flip-side-16 {
-    transform: rotateY( 180deg ) !important;
-}
 
 /* footer */
 
@@ -327,10 +131,6 @@ footer{
         margin-top: -4vh !important;
     }
 
-    .flip{
-        line-height: 4vh;
-    }
-
 }
 
 @media only screen 
@@ -343,11 +143,6 @@ and (orientation : portrait){
 
     h4{
         margin-top: 1vh !important;
-    }
-
-    .flip{
-        height:24vh;
-        line-height: 2vh;
     }
 
     .magtext2{
@@ -389,11 +184,6 @@ and (orientation : portrait){
         font-size: .8rem;
     }
 
-    .flip{
-        height:40vh;
-        line-height: 4vh;
-    }
-
     .grid-container{
         height:90vh;
     }
@@ -419,10 +209,6 @@ and (orientation : portrait){
 
     .grid-container{
         height:70vh;
-    }
-
-    .flip{
-        height:28vh;
     }
 
     .fas{
@@ -456,11 +242,6 @@ and (orientation : portrait){
         font-size: .65rem;
     }
 
-    .flip{
-        width:44vw;
-        display: grid;
-    }
-
     .grid-container{
         grid-template-columns: 2fr 2fr ;
     }
@@ -478,11 +259,6 @@ and (orientation : portrait){
 
     .magtext2{
         font-size: .6rem;
-    }
-
-    .flip{
-        width:30vw;
-        line-height: 6vh;
     }
 
     .grid-container{
@@ -506,11 +282,6 @@ and (orientation : portrait){
 
     .grid-container{
         grid-template-columns: 2fr 2fr;
-    }
-
-    .flip{
-        width:47vw;
-        line-height: 2vh;
     }
 
     .fas{
