@@ -44,7 +44,7 @@ h4 span{
         border: solid black .5vw;
         border-radius:20px;
         width:22vw !important; 
-        margin-left: 2.5vw;
+        margin-left: 2vw;
         position: absolute !important;
     }
  
@@ -123,6 +123,10 @@ footer{
 
 @media(max-width:1300px){
 
+    .magtext{
+        font-size: 1.2rem;
+    }
+
     .magtext2{
         font-size: 1rem;
     }
@@ -149,8 +153,16 @@ and (orientation : portrait){
         font-size: 1.2rem;
     }
 
+    .front, .back{
+        height:23vh !important;
+    }
+
     .grid-container{
-        height:60vh;
+        height:56vh;
+    }
+
+    .grid-item{
+        height:26vh;
     }
 
     .fas{
@@ -184,6 +196,16 @@ and (orientation : portrait){
         font-size: .8rem;
     }
 
+    .front{
+        line-height: 5vh;
+    }
+
+    .front, .back{
+        height:40vh !important;
+        margin-left: 3.5vw;
+        width:22vw;
+    }
+
     .grid-container{
         height:90vh;
     }
@@ -207,8 +229,20 @@ and (orientation : portrait){
         margin-top: 0vh !important;
     }
 
+    .magtext{
+        font-size: 1.0rem;
+    }
+
     .grid-container{
         height:70vh;
+    }
+
+    .grid-item{
+        height:30vh;
+    }
+
+    .front, .back{
+        height:30vh !important;
     }
 
     .fas{
@@ -221,7 +255,7 @@ and (orientation : portrait){
 
 
     .magtext{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .magtext2{
@@ -257,13 +291,21 @@ and (orientation : portrait){
         height:48vh;
     }
 
+    .magtext{
+        font-size: .9rem;
+    }
+
     .magtext2{
         font-size: .6rem;
     }
 
+    .front, .back{
+        margin-left: 4vw;
+    }
+
     .grid-container{
-        grid-template-columns: 2fr 2fr 2fr;
-        height: 134vh;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+        height: 100vh;
     }
 
 }
@@ -282,6 +324,18 @@ and (orientation : portrait){
 
     .grid-container{
         grid-template-columns: 2fr 2fr;
+        height:106vh;
+    }
+
+    .grid-item{
+        height:22vh !important;
+    }
+
+    .front, .back{
+        height:22vh !important;
+        width:48vw !important;
+        margin-left: 4.5vw;
+        line-height: 3vh;
     }
 
     .fas{
