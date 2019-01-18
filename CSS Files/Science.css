@@ -670,6 +670,7 @@ img {
 ul{
     list-style: none;
     text-align: center;
+    margin-top: 7vh;
 }
 
 iframe{
@@ -1157,10 +1158,9 @@ and (min-device-height : 1000px){
     }
 
     .categories{
-       height:12vh;
-       font-size:1.4em;
+       height:20vh;
+       font-size:2em;
        text-align: center;
-       margin-left: .1vw;
     
 
     }
