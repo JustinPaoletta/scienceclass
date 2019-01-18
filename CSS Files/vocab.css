@@ -1,456 +1,382 @@
-@media (max-width:2100px){
-
     body{
         background-color: rgb(51, 64, 32);
     }
     
-    header img{
-        width:98vw;
-        margin-left: .5vw;
+
+    h1{
+        margin-top: 8vh;
+        text-align: center;
+        color: white;
+        font-family:monospace;
+        font-size: 5rem;
     }
         
     
     #cpack{
+        margin-bottom: 10vh;
         text-align:center;
         color:white;
         font-family:monospace;
-        font-size:4vh;
+        font-size:3rem;
+    }
+
+    
+    .roww{
+        height:40vh;
+        overflow-x: scroll;
+        width:96vw;
+        margin-left: 2vw;
+    }
+
+    .cards{
+       position: relative;
     }
         
-    
-    #cards{
-       width:98vw;
-       margin-left:0vw;
-       margin-top:6vh;
-       font-size: 3vh;
-       overflow-x: scroll;
-       text-align: center;
-       display:inline-flex;
-    }
-    
-    #cards img{
-      padding:1.25em;
-      height:160px;
-      width:130px;
+    .cards img{
+      padding:2em;
+      margin-top: 12vh;
+      height:20vh;
       background-color:white;
       border:black .5vw solid;
       border-radius:1em;
-      background-size:18vh;
+    }
+
+    #magnet{
+        position:absolute;
+     
+      }
+
+    #saturn{
+        margin-left: 12vw;
+        z-index: 2;
+        position: absolute;
+    }
+
+    #chem{
+        margin-left: 24vw;
+        z-index: 3;
+        position: absolute;
+       
     }
     
- 
+    #seasons{
+        margin-left: 36vw;
+        z-index: 4;
+        position: absolute;
+        
+    }
+
+
+
+    #geo{
+        margin-left: 48vw;
+        z-index: 5;
+        position: absolute;
+    }
+    
+    #ocean{
+        margin-left: 60vw;
+        z-index: 6;
+        position: absolute;
+       
+    }
+    
+   
+    
+    #bug{
+        margin-left: 72vw;
+        z-index: 7;
+        position: absolute;
+        
+    }
+    #garden{
+        margin-left: 84vw;
+        z-index: 8;
+        position: absolute;
+        
+    }
+    
+    #zoo{
+        margin-left: 96vw;
+        z-index: 9;
+        position: absolute;
+        
+    }
+    
+    #dna{
+        margin-left: 108vw;
+        z-index: 10;
+        position: absolute;
+       
+    }
+    
+    #foot{
+        margin-top: 6vh;
+    }
         
     footer a{
         color:white;
     }
         
     footer p{
-            font-size: 3.4vh;
-            margin-top: 5vh;
+            font-size: 1.1rem;
+            margin-top: 1vh;
     }
     
     footer{
             text-align: center;
             background-color: rgb(37, 37, 37);
             color:rgb(255, 255, 255);
-            height:30vh;
+            height:24vh;
             border: rgb(206, 206, 206) solid .5vw;
             width:98vw;
             padding:0em;
     
     }
     
+@media(max-width:1200px){
+
+    .roww{
+        height:48vh;
     }
 
-@media (max-width:1030px){
+    .cards img{
+        margin-top: 14vh;
+    }
 
-body{
-    background-color: rgb(51, 64, 32);
 }
 
-header img{
-    width:98vw;
-    margin-left: .5vw;
-}
+@media only screen
+and (max-width:1200px)
+and (orientation:portrait){
+
+    h1{
+        font-size: 8rem;
+    }
+
+    #magnet{
+        position:absolute;
+     
+      }
+
+    #saturn{
+        margin-left: 20vw;
+        z-index: 2;
+        position: absolute;
+    }
+
+    #chem{
+        margin-left: 40vw;
+        z-index: 3;
+        position: absolute;
+       
+    }
     
+    #seasons{
+        margin-left: 60vw;
+        z-index: 4;
+        position: absolute;
+        
+    }
 
-#cpack{
-    text-align:center;
-    color:white;
-    font-family:monospace;
-    font-size:4vh;
-}
 
-#cards{
-   width:96vw;
-   margin-top:6vh;
-   font-size: 3vh;
-   overflow-x: scroll;
-   display:inline-flex;
-}
 
-#cards img{
-  padding:1.25em;
-  height:160px;
-  width:130px;
-  background-color:white;
-  border:black .5vw solid;
-  border-radius:1em;
-  background-size:18vh;
-}
-
-#magnet{
-    margin-left: 4vw;
-    float: left;
-}
-
-#saturn{
-    margin-left: 12vw;
-    float: left;
-}
-
-#chem{
-    margin-left: 18vw;
-    float: left;
-}
-
-#seasons{
-    margin-left: 22vw;
-    float: left;
-}
-
-#ocean{
-    margin-left: 26vw;
-    float: left;
-}
-
-#geo{
-    margin-left: 30vw;
-    float: left;
-}
-
-#bug{
-    margin-left: 34vw;
-    float: left;
-}
-
-#garden{
-    margin-left: 38vw;
-    float: left;
-}
-
-#atom{
-    margin-left: 42vw;
-    float: left;
-}
-
-#zoo{
-    margin-left: 44vw;
-    float: left;
-}
-
-#dna{
-    margin-left: 48vw;
-    float: left;
-}
-
+    #geo{
+        margin-left: 80vw;
+        z-index: 5;
+        position: absolute;
+    }
     
-footer a{
-    color:white;
-}
+    #ocean{
+        margin-left: 100vw;
+        z-index: 6;
+        position: absolute;
+       
+    }
     
-footer p{
-        font-size: 3.4vh;
-        margin-top: 5vh;
-}
-
-footer{
-        text-align: center;
-        background-color: rgb(37, 37, 37);
-        color:rgb(255, 255, 255);
-        height:30vh;
-        border: rgb(206, 206, 206) solid .5vw;
-        width:98vw;
-        padding:0em;
-
-}
-
-}
-
-@media (max-width:825px){
-
-
-header img{
-        width:96vw;
-        margin-left:1vw;
-}
-
+   
     
-#cpack{
-        font-size:6vh;
-        margin-left:-2vw;
-} 
+    #bug{
+        margin-left: 120vw;
+        z-index: 7;
+        position: absolute;
+        
+    }
+    #garden{
+        margin-left: 140vw;
+        z-index: 8;
+        position: absolute;
+        
+    }
     
-#cards{
-       width:96vw;
-       margin-left: 0vw;
-       margin-top: 1vh;
-       display:inline-flex;
-}    
+    #zoo{
+        margin-left: 160vw;
+        z-index: 9;
+        position: absolute;
+        
+    }
     
-#cards img{
-  padding:1.25em;
-  height:145px;
-  width:130px;
-  background-color:white;
-  border:black .5vw solid;
-  border-radius:1em;
-  background-size:18vh;
-  margin-top:8vh;
-}
+    #dna{
+        margin-left: 180vw;
+        z-index: 10;
+        position: absolute;
+       
+    }
 
-#magnet{
-    margin-left: 4vw;
-    float: left;
-}
+    footer p{
+        font-size: 1.4rem;
+    }
 
-#saturn{
-    margin-left: -6vw;
-    float: left;
-}
-
-#chem{
-    margin-left: -6vw;
-    float: left;
-}
-
-#seasons{
-    margin-left: -6vw;
-    float: left;
-}
-
-#ocean{
-    margin-left: -6vw;
-    float: left;
-}
-
-#geo{
-    margin-left: -6vw;
-    float: left;
-}
-
-#bug{
-    margin-left: -6vw;
-    float: left;
-}
-#garden{
-    margin-left: -6vw;
-    float: left;
-}
-
-#atom{
-    margin-left: -6vw;
-    float: left;
-}
-
-#zoo{
-    margin-left: -6vw;
-    float: left;
-}
-
-#dna{
-    margin-left: -6vw;
-    float: left;
-}
-
-footer a{
-    color:white;
-}
-
-footer p{
-        margin-top: 6vh;
-}
-
-footer{
-        text-align: center;
-        background-color: rgb(32, 32, 32);
-        color:rgb(255, 255, 255);
-        height:36vh;
-        border: rgb(206, 206, 206) solid .5vw;
-        width:97vw;
-        padding:0em;
-}
+    footer{
+        height:20vh;
+    }
 
 }
 
-@media (max-width:450px){
+@media(max-width:900px){
 
-header img{
-    width:98vw;
-    height:50vh;
-    margin-left:0vw;
+    h1{
+        font-size: 3rem;
+    }
+    
+    #cpack{
+        font-size: 2rem;
+        margin-top: -8vh;
+    }
+
+    .roww{
+        height:55vh;
+    }
+
+    .cards img{
+        margin-top: 14vh;
+    }
+
+    footer{
+        height:38vh;
+    }
+
+}
+
+@media only screen
+and (max-width:900px)
+and (orientation:portrait){
+
+h1{
+    font-size: 6rem;
 }
 
 #cpack{
-    font-size:5vh;
-    margin-left:0vw;
+    margin-top: 0vh;
+    font-size: 3rem;
 }
 
-#cards{
-    width:95vw;
-    display:inline-flex;
-}
-
-#cards img{
-  padding:1.25em;
-  height:11vh;
-  width:13vw;
-  background-color:white;
-  border:black .5vw solid;
-  border-radius:1em;
-  background-size:18vh;
-  margin-top:4vh;
-}
-
-
-#magnet{
-    margin-left: 4vw;
-    float: left;
-}
-
-#saturn{
-    margin-left: -6vw;
-    float: left;
-}
-
-#chem{
-    margin-left: -6vw;
-    float: left;
-}
-
-#seasons{
-    margin-left: -6vw;
-    float: left;
-}
-
-#ocean{
-    margin-left: -6vw;
-    float: left;
-}
-
-#geo{
-    margin-left: -6vw;
-    float: left;
-}
-
-#bug{
-    margin-left: -6vw;
-    float: left;
-}
-#garden{
-    margin-left: -6vw;
-    float: left;
-}
-
-#atom{
-    margin-left: -6vw;
-    float: left;
-}
-
-#zoo{
-    margin-left: -6vw;
-    float: left;
-}
-
-#dna{
-    margin-left: -6vw;
-    float: left;
+.roww{
+    height:44vh;
 }
 
 footer p{
-    margin-top: 4vh;
-    font-size: 2vh;
+    font-size: 1.2rem;
 }
 
 footer{
-    text-align: center;
-    background-color: rgb(32, 32, 32);
-    color:rgb(255, 255, 255);
-    height:26vh;
-    border: rgb(206, 206, 206) solid .5vw;
-    width:96vw;
-    padding:0em;
-    margin-left: 0vw;
-
+    height:20vh;
 }
 
 }
 
-@media only screen 
-and (min-device-width : 750px) 
-and (min-device-height : 1000px)
-and (orientation: portrait){
+@media (max-width:500px)
+{
 
-#cards{
-    width:96vw;
+    h1{
+        font-size: 3rem;
+    }
+    
+    #cpack{
+        margin-top: 0vh;
+        font-size: 2rem;
+    }
+
+    #magnet{
+        position:absolute;
+     
+      }
+
+    #saturn{
+        margin-left: 40vw;
+        z-index: 2;
+        position: absolute;
+    }
+
+    #chem{
+        margin-left: 80vw;
+        z-index: 3;
+        position: absolute;
+       
+    }
+    
+    #seasons{
+        margin-left: 120vw;
+        z-index: 4;
+        position: absolute;
+        
+    }
+
+
+
+    #geo{
+        margin-left: 160vw;
+        z-index: 5;
+        position: absolute;
+    }
+    
+    #ocean{
+        margin-left: 200vw;
+        z-index: 6;
+        position: absolute;
+       
+    }
+    
+   
+    
+    #bug{
+        margin-left: 240vw;
+        z-index: 7;
+        position: absolute;
+        
+    }
+    #garden{
+        margin-left: 280vw;
+        z-index: 8;
+        position: absolute;
+        
+    }
+    
+    #zoo{
+        margin-left: 320vw;
+        z-index: 9;
+        position: absolute;
+        
+    }
+    
+    #dna{
+        margin-left: 360vw;
+        z-index: 10;
+        position: absolute;
+       
+    }
+
+    .roww{
+        width:95vw;
+    }
+
+    footer p{
+        font-size: 1rem;
+    }
+
+    footer{
+        height:25vh;
+    }
+    
+
 }
-
-#magnet{
-    margin-left: 4vw;
-    float: left;
-}
-
-#saturn{
-    margin-left: 14vw;
-    float: left;
-}
-
-#chem{
-    margin-left: 22vw;
-    float: left;
-}
-
-#seasons{
-    margin-left: 30vw;
-    float: left;
-}
-
-#ocean{
-    margin-left: 38vw;
-    float: left;
-}
-
-#geo{
-    margin-left: 46vw;
-    float: left;
-}
-
-#bug{
-    margin-left: 54vw;
-    float: left;
-}
-#garden{
-    margin-left: 62vw;
-    float: left;
-}
-
-#atom{
-    margin-left: 70vw;
-    float: left;
-}
-
-#zoo{
-    margin-left: 78vw;
-    float: left;
-}
-
-#dna{
-    margin-left: 86vw;
-    float: left;
-}
-
-
-}
-
-
-
