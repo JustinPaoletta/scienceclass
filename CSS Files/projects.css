@@ -1,9 +1,5 @@
 /* This Section Applies To Everything Unless otherwise set in Media Query */
 
-  
-
-@media(max-width:2100px){
-
 
 body{
     background-color: rgb(201, 201, 201);
@@ -11,151 +7,132 @@ body{
     margin-left: -.3vw;
 }
 
-#arrows{
-    display: inline-flex;
-    float: left;
-    margin-top: -20vh;
-    position:relative;
-    margin-left: 0vw;
-}
-
-#arrows p{
-    margin-left: 22vw;
-    font-size: 3vh;
-}
-
-#arrows img{
-    height:6vh;
-    width:5vw;
-    margin-left: 5vw;
-    margin-top: 2vh;
-
-}
-
-footer a{
-        color:white;
-    }
-
-    header{
-        height:55vh;
+ header{
+        height:60vh;
         width:100vw;
         margin-top: 0vh;
-        background-color:rgb(114, 114, 114);
-        background-image: url("../Pictures/Screen\ Shot\ 2018-10-28\ at\ 11.55.08\ PM.png");
-        background-size:100vw 55vh;
-    
+        background-color: lightgrey;
     }
+
+#title{
+    margin-top: 4vh;
+}
     
-    header p{
-        font-size: 15vh;
-        margin-left: 0vw;
+ header p{
+        text-align: center;
+        font-size:10vh;
         color: white;
+        margin-left: 12vw;
         transform: rotate(-8deg);
-        padding-top: 12vh;
+        font-family: 'Major Mono Display', monospace;
+        text-shadow: 2px 2px black;
+    }
+
+header img{
+        width:28vw;
+        margin-left: 12vw;
+        margin-top: 8vh;
+    }
+
+
+    .leftside{
+        background-color: rgb(255, 212, 157);
+        height:160vh;
+        text-align: center;
+        border:solid 1vw white;
+    }
+
+    .leftside h1{
+        margin-top: 12vh;
+        font-family: 'Bungee', cursive;
+    }
+
+    .leftside h5{
+        margin-top: 2vh;
+        font-family: 'Bungee', cursive;
+    }
+
+    .lessons{
+        text-shadow: 1px 1px white;
+    }
+
+    #youpick{
+        margin-top: 8vh;
+        font-size: 1.4em;
+        color:rgb(59, 59, 59);
+    }
+
+
+    .descript{
+        font-size: .7em;
+        padding:2.8em;
+    }
+
+    .description p{
         text-align: center;
     }
-    
-    #topbar{
-        text-align: center; 
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1.6vh;
-        background-color: rgb(39, 39, 39);
-        color:white;
-        height:6vh;
-        width:100vw;
-    }
-    
-    .sects{
-        
-        height:60vh;
-        font-size:25px;
-        color: black;
-        border:solid 2vw rgb(134, 134, 134);
-        border-radius: .2em;
-        width:96vw;
-        
-    }
-    
-    #toptext{
-        transform: rotate(0deg);
+
+    .projs{
+        height:56vh;
+        background-color: rgb(160, 160, 160);
+        border:solid .75vw white;
         margin-top: 6vh;
-        font-weight:bold;
-        font-size: 6vh;
-        text-align: center;        
-    }
-    
-
-    #p1 {
-        background-color: rgb(171, 56, 43);
         text-align: center;
-        height:45vh;
-    }
-    
-    #p2 {
-        background-color:rgb(198, 198, 94) ;
-        height:45vh;
-        height:66vh;
-        position: auto;
     }
 
-    #test{
-        display:none;
+    .projs h2{
+        margin-top: 4vh;
     }
 
-    #test2{
-        display:none;
+    h6{
+        width:24vw;
     }
 
     #projectphoto{
-        height:35vh;
-        border:solid .2vw rgb(255, 255, 255);
-        float: right;
-        margin-right: 10vw;
-        margin-top: -20vh;
-    }
-    
-    #projectname{
-        margin-top: 3vh;
-        float: left;
-        font-size: 5vh;
-        margin-left: 12vw;
+        height:14vh;
     }
 
-    #projectinfo{
-        width:40vw;
-        margin-left: 10vw;
-    }
-
-    #projectlinks{
-        margin-left: 15vw;
-    }
-    
-    #p3{
-        background-color:rgb(20, 92, 155);
-        vertical-align: top;
-        color: black;
-        height:40vh;
+    .rightside{
+        background-color: rgb(0, 0, 0);
+        height:30vh;
         text-align: center;
-        
-    }
-    
-    #content3{
-        margin-top: 7vh;
-        margin-left: 0vw;
-        font-size: 6vh;
-        padding-left: 5vw;
-        padding-right: 5vw;
+        border:solid .5vw white;
+        color:white;
     }
 
-    #content3 img{
-
-        height:8vh;
-        width:5vw;
+    .rightside h1{
+        margin-top: 10vh;
+        font-family: 'Bungee', cursive;
+        font-size:3.2rem;
     }
-    
+
+    .bottom{
+        background-color: rgb(185, 148, 54);
+        height:44vh;
+        text-align: center;
+        border:solid 1vw white;
+    }
+
+    .bottom h1{
+        margin-top: 12vh;
+        font-family: 'Bungee', cursive;
+    }
+
+    .contact img{
+        height:6vh;
+    }
+
+    #foot{
+        margin-top: 8vh;
+    }
+
     footer p{
         padding-top: 3vh;
         font-size: 2vh;
+    }
+
+    footer a{
+        color: white;
     }
     
     
@@ -168,112 +145,618 @@ footer a{
         line-height:.8vh;
         padding-top: 2vh;
     }
-}
+    
+  @media (max-width:1500px){
 
-
-
-
-@media(max-width:1000px){
- 
-    #p1{
-        height:100vh;
+    header p{
+        font-size:8vh;
+        margin-left: 10vw;
+        margin-top: 3vh;
     }
-    #toptitle{
-        width:80vw;
+
+    header img{
+        width:34vw;
+        margin-left: 10vw;
+        margin-top: 17vh;
+    }
+
+    .descript{
+        font-size: 1rem;
+    }
+
+
+
+  }
+
+  @media only screen
+  and (max-device-width : 1100px)
+  and (orientation : portrait){
+
+    header{
+        height:41vh;
+    }
+
+    header p{
+        font-size: 4rem;
+    }
+
+    .projs{
+        height:50vh !important;
+        margin-top: 0vh;
+    }
+
+    .descript{
+        font-size: .7em !important;
+    }
+
+    .lessons{
+        font-size: 1.8rem;
+    }
+
+    .leftside{
+        height:136vh !important;
+    }
+
+    .rightside{
+        height:30vh !important;
+    }
+
+    .rightside h1{
+        margin-top: 11vh !important;
+    }
+    
+    .projects{
+        margin-top: 3vh !important;
+    }
+
+    .bottom{
+        height:40vh;
+    }
+
+    #foot{
+        margin-top: 4vh;
+    }
+
+    footer{
+        height:30vh;
+    }
+
+  }
+
+  @media (max-width:1100px){
+
+    .descript{
+        font-size: .5em;
+    }
+
+    .projects{
+        margin-top: 0vh;
+    }
+
+    .projs h2{
+        margin-top: 0vh;
+    }
+  }
+
+  @media (max-width:900px){
+
+    header{
+        height:70vh;
+    }
+
+    header p{
+        font-size:10vh;
+        margin-left: 13vw;
+        margin-top: 4vh;
+    }
+
+    header img{
+        width:26vw;
+        margin-left: 16vw;
+        margin-top: 17vh;
+    }
+
+
+    .lessons{
+        text-shadow: 1px 1px white;
+    }
+
+    #youpick{
+        margin-top: 8vh;
+        font-size: 1em;
+    }
+
+    .description p{
+        text-align: center;
+    }
+
+    .descript{
+        font-size: .66em;
+    }
+
+    .projs{
+        height:110vh;
+    }
+
+    #projectinfo1{
+        text-align: center;
+        margin-left: 2vw;
+    }
+
+    .leftside{
+        height:300vh;
+    }
+
+    .rightside{
+        height:50vh;
+    }
+
+    .rightside h1{
+        margin-top: 14vh;
+    }
+
+    #projectinfo1{
+        margin-left: 4vw;
+    }
+
+    .projects{
+        margin-top: 4vh;
+    }
+
+    .bottom{
+        height:60vh;
+    }
+
+    footer p{
+        font-size: 1.6em;
+        margin-top: 10vh;
+    }
+
+    footer{
+        height:60vh;
+    }
+
+  }
+
+  @media only screen
+  and (max-device-width : 800px)
+  and (orientation : portrait){
+
+
+    header{
+        height:42vh;
+    }
+
+    header p{
+        font-size: 2.7rem;
+    }
+
+    header img{
+        width:36vw;
+        margin-left: 6vw;
+        margin-top: 17vh;
+    }
+
+    .rightside{
+        height: 28vh !important;
+    }
+
+    #youpick{
+        font-size: 1.2rem;
+    }
+
+    .leftside{
+        height:170vh !important;
+    }
+
+    .descript{
+        font-size: .76rem !important;
+    }
+
+    .projects{
+        margin-top: 6vh !important;
+    }
+
+    .projs {
+        height:60vh !important;
+        margin-top: 4vh;
+    }
+
+    .bottom{
+        height:40vh;
+    }
+
+    footer p{
+        font-size: 1.2rem;
+        margin-top: 2vh;
+    }
+
+    footer{
+        height:40vh;
+    }
+
+  }
+
+  @media (max-width:750px){
+
+    header img{
+        width:32vw;
+        margin-left: 10vw;
+    }
+
+    .leftside{
+        height:250vh;
+    }
+
+    .rightside{
+        margin-left:1.5vw;
+        margin-top: 4vh;
+    }
+
+    #youpick{
+        margin-top: 8vh;
+        font-size: 1.1em;
+    }
+
+    .descript{
+        font-size: .75em;
+        width:60vw;
+        margin-left: 19vw;
+    }
+
+    .projs img{
+        height:14vw !important;
+    }
+
+    footer p{
+        font-size: 1em;
+        margin-top: 1vh;
+    }
+
+    #foot{
+        margin-top: 16vh;
+    }
+
+  }
+
+  @media (max-width:680px){
+      
+    .leftside h5{
+        font-size: 1.1em;
+    }
+
+    .rightside{
+        margin-top: 4vh;
+    }
+
+    .rightside h1{
+        font-size: 2.6rem;
+    }
+
+    #youpick{
+        font-size: 1rem;
+    }
+
+    .descript{
+        font-size: .76rem;
+    }
+
+    #projectinfo1{
+        margin-left: 5vw;
+    }
+
+    .projs h6{
+        font-size: .8rem;
+    }
+
+    .bottom h1{
+        font-size: 2rem;
+    }
+
+  }
+
+  @media (max-width:600px){
+
+    .leftside{
+        height:300vh;
+    }
+
+    .rightside{
+        margin-left: 0vw;
+    }
+
+    #youpick{
+        font-size: .8rem;
+    }
+
+    .projs{
+        height:140vh;
+    }
+
+    .projects{
+        margin-top: 0vh;
+    }
+
+    #projectinfo1{
         margin-left: 8vw;
     }
-    #p2{
-        height:80vh;
-    }
-    #projectname{
-        font-size: 6vh;
-    }
-    #projectinfo{
-        margin-top: -10vh;
-        font-size: 4vh;
-    }
-    #projectphoto{
-        margin-top: -30vh;
-    }
-    #projectlinks{
-        font-size: 4vh;
+
+    #projectinfo2{
+        margin-left: 1vw;
     }
 
-
-}
-
-@media(max-width:600px)
-and (orientation : landscape){
-
-    #p1 p{
-        font-size: 5vh;
+    #projectinfo3{
+        margin-left: 2vw;
     }
 
-}
+    #projectinfo4{
+        margin-left: 1vw;
+    }
 
-@media only screen 
-and (min-device-width : 299px) 
-and (orientation : portrait)
-and (-webkit-min-device-pixel-ratio: 1) { 
-    #p1{
-        font-size: 2vh;
-        height:40vh;
+  }
+
+  @media only screen
+  and (max-device-width : 500px)
+  and (orientation : portrait){
+
+    header{
+        height:30vh !important;
+        width:100vw !important;
+        margin-left: 1.5vw;
     }
-    #p2{
-        height: 80vh;
+
+    header p{
+        font-size: 1.5rem;
+        margin-top: 2vh !important;
     }
-    #projectname{
-        font-size: 4vh;
+
+    header img{
+        margin-top: 13vh !important;
     }
-    #projectinfo{
-        margin-top: -10vh;
-        font-size: 3vh;
+
+    .leftside{
+        background-color: rgb(255, 212, 157);
+        height:160vh !important;
+        text-align: center;
+        border:solid 1vw white;
     }
-    #projectphoto{
-        margin-top: -20vh;
-        height:14vh;
-        width:25vw;
-        margin-right: 10vw;
-    
+
+    .leftside h1{
+        margin-top: 6vh;
+        font-family: 'Bungee', cursive;
     }
-    #projectlinks{
-        font-size: 2vh;
+
+    .leftside h5{
+        margin-top: 2vh;
+        font-family: 'Bungee', cursive;
     }
+
+    .lessons{
+        font-size: 1.2rem;
+    }
+
+    #youpick{
+        margin-top: 3vh;
+        font-size: 1.6em;
+        color:rgb(59, 59, 59);
+    }
+
+    .descript{
+        font-size: .7rem !important;
+    }
+
+    .rightside{
+        margin-left: 1.5vw;
+        width:100vw;
+    }
+
+    .rightside h1{
+        font-size: 2rem !important;
+    }
+
+    .projects{
+        margin-top: 0vh !important;
+    }
+
+    #projectinfo1{
+        margin-left: 10vw;
+    }
+
+    #projectinfo2{
+        margin-left: 6vw;
+    }
+
+    #projectinfo3{
+        margin-left: 9vw;
+    }
+
+    #projectinfo4{
+        margin-left: 6vw;
+    }
+
+    .bottom{
+        height:52vh;
+    }
+
     #content3{
-        font-size: 4vh;
+        font-size: 1.4em;
     }
-    #content3 img{
-        height:8vh;
-        width:12vw;
-    }
-}
 
-@media only screen 
-and (min-device-width : 700px) 
-and (orientation : portrait)
-and (-webkit-min-device-pixel-ratio: 1) { 
-    #p1{
-        height:40vh;
+    #foot{
+        margin-top: 7vh;
     }
-    #p2{
-        height:64vh;
+
+    footer{
+        width:100vw;
+        margin-left: 1.5vw;
     }
+  }
+
+
+  @media only screen
+  and (max-device-width : 400px)
+  and (orientation : portrait){
+
+    .leftside{
+        height:180vh !important;
+    }
+
+    .rightside{
+        margin-left: 0vw;
+    }
+
+    .projs{
+        height:80vh !important;
+    }
+
     #projectname{
-        font-size: 4vh;
+        font-size: 1.8em;
     }
-    #projectinfo{
-        margin-top: 1vh;
-        font-size: 3vh;
+
+    #projectinfo1{
+        margin-left: 10vw;
     }
-    #projectphoto{
-        margin-top: -25vh;
-        height:18vh;
-        width:28vw;
+
+    #projectinfo2{
+        margin-left: 10vw;
     }
+
+    #projectinfo3{
+        margin-left: 10vw;
+    }
+
+    #projectinfo4{
+        margin-left: 10vw;
+    }
+
     #projectlinks{
-        font-size: 2vh;
+        font-size: 1.2em;
     }
-}
+
+    #content3{
+        width:80vw;
+        margin-left: 10vw;
+    }
+
+    .bottom{
+        height:60vh;
+    }
+
+  }
 
 
+  @media only screen
+  and (max-device-width : 360px)
+  and (orientation : portrait){
+
+    .leftside{
+        height:190vh !important;
+    }
+
+    .rightside{
+        margin-left: .5vw;
+    }
+
+    .projs{
+        height:80vh !important;
+    }
+
+    #projectname{
+        font-size: 1.6em;
+    }
+
+    #projectinfo1{
+        margin-left: 10vw;
+    }
+
+    #projectinfo2{
+        margin-left: 10vw;
+    }
+
+    #projectinfo3{
+        margin-left: 10vw;
+    }
+
+    #projectinfo4{
+        margin-left: 10vw;
+    }
+
+    #projectlinks{
+        font-size: 1.2em;
+    }
+
+    #content3{
+        width:80vw;
+        margin-left: 10vw;
+    }
+
+    .bottom{
+        height:60vh;
+    }
+
+  }
+
+  @media only screen
+  and (max-device-width : 330px)
+  and (orientation : portrait){
+
+    header{
+        height:40vh !important;
+    }
+
+    header p{
+        margin-left: 5vw;
+    }
+
+    .leftside{
+        height:190vh !important;
+    }
+
+    .rightside{
+        margin-left: .5vw;
+    }
+
+    .projs{
+        height:80vh !important;
+    }
+
+    .descript{
+        margin-left: 10vw;
+        width:80vw;
+    }
+
+    #projectname{
+        font-size: 1.6em;
+    }
+
+    #projectinfo1{
+        margin-left: 10vw;
+    }
+
+    #projectinfo2{
+        margin-left: 10vw;
+    }
+
+    #projectinfo3{
+        margin-left: 10vw;
+    }
+
+    #projectinfo4{
+        margin-left: 10vw;
+    }
+
+    #projectlinks{
+        font-size: 1.2em;
+    }
+
+    #content3{
+        width:80vw;
+        margin-left: 10vw;
+    }
+
+    .bottom{
+        height:70vh;
+    }
+
+  }
 

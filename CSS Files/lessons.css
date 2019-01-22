@@ -207,6 +207,10 @@ footer{
         margin-top: 0vh;
     }
 
+    footer p{
+        margin-top: 6vh;
+    }
+
     footer{
         height:32vh;
     }

@@ -4,89 +4,181 @@
 <head>
     <link rel="stylesheet" href="../CSS Files/projects.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
 </head>
 
 <body>
 
     <header>
 
+        <div style="display:inline-flex">
+
+            <section id="title">
+                <p>THE</p>
+                <p>PROJECTS</p>
+                <p>PAGE</p>
+            </section>
+
+            <section>
+                <img src="../Pictures/scientist.svg">
+            </section>
+
+        </div>
+
     </header>
 
 
 
     <hr>
-    <div id="topbar"></div>
-    <hr>
-
-
-
-
-    <div id="toptext">
-        <p>Whats Next?</p>
-    </div>
-    <div class="sects" id="p1">
-        <br>
-        <strong>
-            <p id="toptitle">YOU CHOOSE BETWEEN THE OPTIONS BELOW AND LET ME KNOW</p>
-        </strong><br>
-        <p>The States of Matter</p>
-        <p>Plant And Animal Life Cycles</p>
-        <p>Human Body Parts</p><br>
-    </div>
-
-    <hr>
-
-
-
-
-
-    <div id="toptext">
-        <p>Completed</p>
-    </div>
-
-
-    <div class="sects" style="display:inline-block" id="p2">
-        <br>
-        <p id="projectname">Weather Station</p><br><br><br><br>
-
-        <p id="projectinfo">The Weather Station Consisted Of A Barometer, Anemometer, Rain Gauge, And A Weather Vane!</p>
-
-        <img id="projectphoto" src="../Pictures/54601574-vector-illustration-rooster-weather-vane-black-silhouette-rooster-cock-weather-vane-symbol-icon.jpg">
-
-
-        <p id="projectlinks">Click <a id="projectlink" href="">Here</a> For Video</p>
-
-
-
-        <br>
-        <br>
-
-    </div>
-
-    <div id="arrows">
-        <p>See More</p>
-        <img id="arrowright" src="../Pictures/right-arrow-icon-png-3 copy.png">
-    </div>
-
-
-    <hr>
-
-
-
-
-
-    <p id="toptext">Submit Ideas</p>
-
-    <div class="sects" id="p3">
-
-        <p id="content3">Call Email or Text<br><br>
-            <A HREF="tel:321-615-6612"><img src="../Pictures/Screen Shot 2018-10-29 at 12.36.01 AM.png"></A>
-            <A HREF="mailto:justinpaoletta@yahoo.com"><img src="../Pictures/Screen Shot 2018-10-29 at 12.36.33 AM.png"></A>
-            <A HREF="sms://+13216156612?"><img src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/imessage-512.png"></A></p>
-
-    </div>
     <br>
-    <hr><br>
+    <hr>
+
+    <div class="row">
+
+        <div class="col-lg-4 col-md-4 col-sm-12 leftside">
+
+            <h1>UP NEXT</h1>
+            <h5>Choose Your Lesson</h5>
+
+            <section id="youpick" style="text-align: center;">
+                <p class="lessons">The States of Matter</p>
+                <i class="fas fa-atom"></i>
+
+
+                <p class="descript">Matter is everything that we come across in our lives, like the air you breathe,
+                    the clothes you
+                    wear, cool drinks – literally everything!
+                    When we talk about the states of matter, we mostly talk about solids, liquids and gases.
+                    There are also ones that are less common and they’re called plasma and beam.</p>
+
+
+                <p class="lessons">Plant And Animal Life Cycles</p>
+                <i class="fas fa-frog"></i>
+
+                <p class="descript">All plants and animals go through life cycles. Just think about all the growing and
+                    changing human children do as they grow up. Children grow in height and get heavier until they
+                    reach adulthood.
+                    Trees that start off as a tiny seed can grow to over a hundred feet tall! Learn more about how this
+                    transformation happens.
+                </p>
+
+                <p class="lessons">Human Body Parts</p>
+                <i class="fas fa-skull"></i>
+
+                <p class="descript">Your body is more than what you see when you look in the mirror – there are
+                    different parts that have different jobs, but each part works together so you can eat, sleep, and
+                    play.
+                    Find out more about your bones and muscles, and about your five senses and the nervous system.
+                </p>
+
+            </section>
+
+        </div>
+
+        <div class="col-lg-8 col-md-8 col-sm-12">
+
+            <section class="rightside">
+                <h1>COMPLETED</h1>
+            </section>
+
+            <div class="row projects">
+
+                <div class="col-6 projs">
+
+                    <div class="sects" style="display:inline-block">
+                        <br><br>
+                        <h2 id="projectname">Weather Station!</h2><br>
+
+                        <h6 id="projectinfo1">We Built A Tool To Measure The Weather And Learn It's Patterns!</h6><br>
+
+                        <img id="projectphoto" src="../Pictures/weathercock.svg"><br><br>
+
+                        <p id="projectlinks">Click <a id="projectlink" href="">Here</a> For Video</p>
+
+                    </div>
+                </div>
+
+                <div class="col-6 projs">
+
+                    <div class="sects" style="display:inline-block">
+                        <br><br>
+                        <h2 id="projectname">Egg Drop</h2><br>
+
+                        <h6 id="projectinfo2">We Built Containers To Protect Eggs From Cracking And Then Dropped Them
+                            Off The Roof!</h6><br>
+
+                        <img id="projectphoto" src="../Pictures/egg.svg"><br><br>
+
+                        <p id="projectlinks">Click <a id="projectlink" href="https://www.youtube.com/watch?v=1T6EReKOyT4">Here</a>
+                            For Video</p>
+
+                    </div>
+                </div>
+
+                <div class="col-6 projs">
+                    <div class="sects" style="display:inline-block">
+                        <br><br>
+                        <h2 id="projectname">Shake Table</h2><br>
+
+                        <h6 id="projectinfo3">We Constructed A Bunch Of Towers And Shook Their Platform To See How They
+                            Survived!</h6><br>
+
+                        <img id="projectphoto" src="../Pictures/earthquake.svg"><br><br>
+
+                        <p id="projectlinks">Click <a id="projectlink" href="https://www.youtube.com/watch?v=zq7DgkZk-kQ">Here</a>
+                            For Video</p>
+
+                    </div>
+                </div>
+
+                <div class="col-6 projs">
+                    <div class="sects" style="display:inline-block">
+                        <br><br>
+                        <h2 id="projectname">Solar Oven</h2><br>
+
+                        <h6 id="projectinfo4">We Cooked Quesadillas Using Power From The Sun!</h6><br>
+
+                        <img id="projectphoto" src="../Pictures/oven.svg"><br><br>
+
+                        <p id="projectlinks">Click <a id="projectlink" href="../Pictures/Solar Oven Quesadillas_.mp4">Here</a>
+                            For Video</p>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-12 bottom">
+
+            <h1>CONTACT UNCLE JUSTIN</h1>
+
+            <div class="contact">
+
+                <p id="content3">Call Email or Text To Tell Me What You Want To Learn Next<br><br>
+                    <A HREF="tel:321-615-6612"><img src="../Pictures/Screen Shot 2018-10-29 at 12.36.01 AM.png"></A>
+                    <A HREF="mailto:justinpaoletta@yahoo.com"><img src="../Pictures/Screen Shot 2018-10-29 at 12.36.33 AM.png"></A>
+                    <A HREF="sms://+13216156612?"><img src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/imessage-512.png"></A></p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <hr>
+    <br>
 
 
 
@@ -94,16 +186,25 @@
 
 
     <footer>
-        <div>
-            <p>Website Created By Justin Paoletta</p>
-            <p>Dedicated to Gabriel Perdomo </p>
-        </div>
-        <a href="../index.html">
-            <p id="home">Return Home</p>
-        </a>
+        <section id="foot">
+            <div>
+                <p>Website Created By Justin Paoletta</p>
+                <p>Dedicated to Gabriel Perdomo </p>
+            </div>
+            <a href="../index.html">
+                <p id="home">Return Home</p>
+            </a>
+        </section>
     </footer>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script type="text/javascript" src="../JS Files/projects.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
 
 </body>
 

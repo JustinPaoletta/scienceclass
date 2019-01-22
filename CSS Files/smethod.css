@@ -123,3 +123,318 @@
         padding:2em;
     }
 
+    @media(max-width:1500px){
+
+        header p{
+            font-size: 3.2vh;
+            padding-left: 10vw;
+            padding-right: 10vw;
+        }
+
+        #lesson{
+
+            font-size:1.2rem;
+        
+        }
+
+        #chalkboard{
+            height:60vh;
+        
+        }
+
+        #floor {
+            margin-top: -5vh;
+        }
+
+        .professor{
+
+            margin-top:-20vh;
+          
+        }
+
+        ol{
+            margin-left:34vw;
+            font-size: .9rem;
+            margin-top: 4vh;
+        }
+
+        #more{
+            margin-top: -12vh !important;
+            margin-left: 23vw;
+        }
+
+    }
+
+    
+    @media(max-width:1100px){
+
+        #lesson{
+            font-size:1rem;
+        }
+
+        ol{
+            font-size: .8rem;
+        }
+
+        #floor {
+            margin-top: -6vh;
+        }
+
+    }
+
+    @media only screen 
+    and (max-device-width : 1100px)
+    and (orientation : portrait){
+
+        header{
+            font-size: 4vh;
+            height:40vh ; 
+        }
+
+        h1{
+            margin-top: 4vh;
+        }
+        
+        header p{
+            display:none;
+        }
+
+        #lesson{
+            margin-left: 17vw;
+        }
+
+        ol{
+            line-height: 4vh;
+            font-size: 1.2rem;
+        }
+
+        #chalkboard{
+            height:45vh;
+            width:80vw;
+            margin-left: 10vw;
+        }
+
+        #more{
+            margin-top: -26vh !important;
+            margin-left: 44vw;
+            font-size: 1.2rem;
+        }
+
+        .professor{
+            margin-top:-20vh;
+            margin-left: -9vw;
+        }
+
+        .professor img{
+            width:70vw;
+        }
+
+        #floor{
+            margin-top:-4vh;
+        }
+
+    }
+
+
+    @media(max-width:900px){
+
+        #foot{
+            margin-top: 0vh;
+            font-size: 1rem;
+        }
+
+        #chalkboard{
+            height:80vh;
+        }
+
+        #lesson{
+            font-size:.7rem;
+        }
+
+        ol{
+            margin-top: 10vh;
+        }
+
+        #more{
+            margin-top: -2vh !important;
+            margin-left: 23vw;
+        }
+
+        .professor{
+
+            margin-top:-40vh;
+          
+        }
+
+        #floor {
+            margin-top: -12vh;
+        }
+
+
+    }
+
+    @media only screen 
+    and (max-device-width : 800px)
+    and (orientation : portrait){
+
+
+        #chalkboard{
+            height:56vh;
+            width:82vw;
+        }
+
+        #lesson{
+            font-size: .9rem;
+        }
+
+        .professor{
+
+            margin-top:-26vh;
+          
+        }
+
+        ol{
+            font-size: .9rem;
+            margin-left: 38vw;
+        }
+
+        #more{
+            margin-top: -26vh !important;
+            margin-left: 44vw;
+            font-size: 1rem;
+        }
+
+        #floor {
+            margin-top: -5vh;
+        }
+
+        #foot{
+            margin-top: 6vh;
+        }
+
+        footer{
+            height:20vh;
+        }
+
+    }
+
+    @media(max-width:750px){
+
+        #floor {
+            margin-top: -11vh;
+        }
+
+    }
+
+    @media(max-width:670px){
+
+        #lesson{
+            margin-top: 15vh;
+            font-size: .6rem;
+        }
+
+        ol{
+            font-size: .7rem;
+        }
+
+    }
+
+    @media(max-width:570px){
+
+        #lesson{
+            margin-top: 17vh;
+            font-size: .5rem;
+            margin-left: 26vw;
+        }
+
+        ol{
+            font-size: .6rem;
+        }
+
+        #floor{
+            margin-top: -13vh;
+        }
+
+        #foot{
+            margin-top: -3vh;
+        }
+
+    }
+
+    @media only screen 
+    and (max-device-width : 500px)
+    and (orientation : portrait){
+
+        header{
+            height:48vh;
+        }
+
+        h1{
+            font-size: 3rem;
+        }
+
+        #chalkboard{
+            height:34vh;
+            width:76vw;
+            border-width:2vw;
+        }
+
+        #lesson{
+            margin-top: 7vh;
+            font-size: .4rem;
+            margin-left: 20vw;
+        }
+
+        ol{
+            font-size: .45rem;
+            margin-left: 30vw;
+            margin-top: 2vh;
+            line-height: 3vh;
+        }
+
+        #more{
+            font-size: .45rem;
+            margin-top: -33vh !important;
+            margin-left: 36vw;
+        }
+
+        .professor{
+            margin-top: -20vh;
+            margin-left: -20vw;
+          
+        }
+
+        #floor{
+            margin-top: -6vh;
+        }
+
+        #foot{
+            margin-top: 5vh;
+        }
+
+    }
+
+    @media only screen 
+    and (max-device-width : 375px)
+    and (orientation : portrait){
+
+        header{
+            height:40vh;
+        }
+
+        #chalkboard{
+            border-width:2vw;
+            width:80vw;
+        }
+
+        #lesson{
+            margin-left: 14vw;
+            font-size: .34rem;
+        }
+
+        #floor{
+            margin-top: -5.7vh;
+        }
+
+    }
+
