@@ -54,6 +54,47 @@
         margin-top:0vh;
         line-height: 4vh;
     }
+
+    .modals{
+        margin-left: 10vw;
+        position:absolute;
+        margin-top: 10vh;
+        z-index: 2;
+        
+    }
+
+    #modal1{
+        display: none;
+    }
+
+    #modal2{
+        display:none;
+    }
+
+    #modal3{
+        display:none;
+    }
+
+    #modal4{
+        display:none;
+    }
+
+    #modal5{
+        display:none;
+    }
+
+    #modal6{
+        display:none;
+    }
+
+    .modals p{
+        position: absolute;
+        width:40vw;
+        font-size: 2.3rem;
+        text-align: center;
+        margin-left: 3vw;
+        margin-top: -60vh;
+    }
     
     
     .professor{
